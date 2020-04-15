@@ -86,7 +86,7 @@ li.nav-item {
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 66px;
+  top: 60px;
 }
 .nav-item > .active {
   font-weight: 500;

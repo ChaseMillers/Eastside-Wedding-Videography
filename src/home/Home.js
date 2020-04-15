@@ -4,7 +4,7 @@ import Buttons from '../buttons/Buttons'
 import ReactPlayer from 'react-player'
 import Testimonials from "../testimonials/Testimonials"
 import Contact from "../contact/Contact"
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from "react-router-dom";
 import Layout from "../Layout/Layout"
 
 const Home = () => {
@@ -41,15 +41,17 @@ const Home = () => {
             </section>
 
         <section >
-            <ReactPlayer
-                url="https://vimeo.com/381476056"
-                className='highlight-player'
-                light='./pics/A&C.webp'
-                controls
-                playing
-                width="100%"
-                height='333.33px'
-            />
+            <div className="video-holder-home"> 
+                <ReactPlayer
+                    url="https://vimeo.com/381476056"
+                    className='highlight-player'
+                    light='./pics/A&C.webp'
+                    controls
+                    playing
+                    width="500px"
+                    height='220px'
+                />
+            </div>
             <div className="our-work">
                 <Link className="home-link" to="/ourwork">
                     <div className="button-work">

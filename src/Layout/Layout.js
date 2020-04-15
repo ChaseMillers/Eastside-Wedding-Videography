@@ -1,7 +1,6 @@
 import React, {Fragment} from "react";
 import Contact from '../contact/Contact'
 import Home from '../home/Home'
-import Portfolio from "../portfolio/Portfolio"
 import StickyHeader from "../sticky/stickyHelper"
 import Logo from "../logo/Logo"
 import "./Layout.css"

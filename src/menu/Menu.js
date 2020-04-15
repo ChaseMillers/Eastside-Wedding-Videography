@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from "react-router-dom";
 import { HamburgerSqueeze } from 'react-animated-burgers'
 import './Menu.css';
 import useOutsideClick from "./menuHelper"
@@ -26,11 +26,7 @@ const Menu = () => {
           <li className="nav-item">
             <Link 
             className="nav-link"  
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            to="home-anchor">
+            to="/">
               Home
             </Link>
           </li>

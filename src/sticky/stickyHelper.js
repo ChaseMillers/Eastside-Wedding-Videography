@@ -15,7 +15,7 @@ const StickyHeader = () => {
     return () => {
       window.removeEventListener('scroll', () => handleScroll);
     };
-  }, []);
+  }, [isSticky]);
 
   return (
     <div className={`sticky-wrapper${isSticky ? ' sticky' : ''}`} ref={ref}>
