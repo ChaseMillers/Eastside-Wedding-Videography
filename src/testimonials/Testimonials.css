@@ -1,0 +1,26 @@
+.test-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 0 30px;
+}
+.test{
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.test p{
+    margin: 0px;
+    padding: 5px;
+    font-style: italic;
+}
+.quoter{
+    color: grey;
+
+}

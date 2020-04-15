@@ -1,0 +1,22 @@
+
+.logo {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Old Standard TT';
+    padding: 0 20px;
+}
+
+.logo h1{
+  margin-bottom: 1px;
+  padding: 0;
+}
+
+@media (min-width: 650px) {
+    .logo img{
+      width: 300px;
+    }
+    .logo {
+      margin-top: 10px;
+    }
+}

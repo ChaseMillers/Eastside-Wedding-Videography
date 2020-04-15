@@ -1,0 +1,104 @@
+.packages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+/* Package Title */
+.packages h2{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    padding-bottom: 5px;
+}
+/* Package Price */
+.packages h3{
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 10px;
+    color: grey;
+}
+.packages li{
+    font-size: 18px;
+    text-align: start;
+}
+.packages ul{
+    display: inline-block;
+    margin: 0 auto;
+}
+.package{
+    margin-bottom: 10px;
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+}
+.bonus{
+    font-weight: 600;
+}
+.package-list{
+
+}
+.package-inline{
+    
+}
+
+
+.add-ons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.add-on{
+    margin-bottom: 10px;
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Add on title */
+.add-on h2{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px;
+}
+/* Add on price */
+.add-on h3{
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0;
+    color: grey;
+}
+.add-on p {
+    margin: 0px;
+    padding: 5px;
+}
+.add-on-inline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-ons-title{
+    padding: 0 30px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.buttoninContainer{
+    display: flex;
+}
+.view{
+    padding: -3px 6px;
+    line-height: 15px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}

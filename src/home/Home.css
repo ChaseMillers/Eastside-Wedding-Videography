@@ -1,0 +1,82 @@
+.message p{
+    padding: -0 10px;
+}
+
+.img-holder-one{
+    margin-top: 30px;
+    max-width: 500px;
+}
+.img-holder-two{
+    margin-top: 30px;
+    max-width: 500px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.our-work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-work h2{
+    text-align: center;
+    position: absolute;
+    font-weight: 500;
+    height: 100px;
+    color: white;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    z-index: 1;
+    font-size: 50px;
+}
+
+.profile-pic{
+    width: 250px;
+    margin: 20px 5px 0 20px;
+}
+.profile-pic img{
+    width: 100%;
+}
+.profile{
+    margin: 30px auto 0 auto;
+    padding-top: 10px;
+    max-width: 500px;
+}
+.profile-text{
+    padding: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.profile-text p{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+}
+.profile h3{
+    width: 150px;
+    margin: 0 20px 0 5px;
+    font-weight: 500;
+    font-size: 24px;
+}
+.img-title-container{
+    display: flex;
+    align-items:flex-end;
+}
+.img-banner{
+}
+.profile-container{
+    background-color:rgb(230, 230, 230);
+}
+.stars{
+    margin: 10px 0 0 0;
+}
+.button-work{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+   justify-content: center;
+}

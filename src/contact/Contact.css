@@ -1,0 +1,51 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contact-header{
+    text-align: center;
+}
+
+form button{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    padding: 5px 20px;
+    background-color: white;
+    border: solid 1px rgb(0, 0, 0);
+    font-weight: 500;
+}
+form button:hover{
+    background-color: rgb(224, 224, 224);
+}
+.contact-input{
+    width: 230px;
+}
+.tell-us{
+    height: 85px;
+}
+
+.comp-info{
+    text-align: center;
+    margin-top: 10px;
+}
+a{
+    line-height: 25px;
+}
+.success{
+    text-align: center;
+    padding: 15px;
+    height: 400px;
+}
+.loading{
+    text-align: center;
+    height: 400px;
+}
+.optional{
+    margin-right: -5px;
+    color: rgb(182, 182, 182);
+}

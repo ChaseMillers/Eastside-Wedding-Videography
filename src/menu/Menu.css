@@ -1,0 +1,126 @@
+/**
+*Nav Bar
+*/
+.header ul{
+  list-style-type: none;
+  line-height: 20px;
+}
+
+a.nav-link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+a.nav-link:hover {
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+
+.nav-link {
+  padding: 6.4px 30px;
+  display: block;
+}
+
+/* Hamburger Nav */
+.eJApds{
+  width: 30px !important;
+  height: 3px !important;
+}
+.eJApds::before, .eJApds::after {
+  width: 30px !important;
+  height: 3px !important;
+}
+.eFudgO {
+  width: 30px !important;
+  height: 3px !important;
+}
+.eFudgO::before, .eFudgO::after {
+  width: 30px !important;
+  height: 3px !important;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.header .menu-icon {
+  background-color: rgba(255, 255, 255, 0.65);
+  border-bottom: black solid 1px;
+  cursor: pointer;
+  float: right;
+  padding-left: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+  display: none;
+}
+
+li.nav-item {
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.header .menu-btn ~ .nav {
+  width: 150px;
+  border-bottom: .5px solid #6f6f6f;
+  border-left: .5px solid #6f6f6f;
+  background-color: white;
+  padding-bottom: 10px;
+  position: relative;
+  right: -291px;
+  display: none;
+  z-index: 2;
+}
+.header .menu-btn:checked ~ .nav {
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 0;
+  animation: slide 0.5s forwards;
+  animation-delay: 0;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 66px;
+}
+.nav-item > .active {
+  font-weight: 500;
+}
+@-webkit-keyframes slide {
+  100% { right: 0; }
+}
+@keyframes slide {
+  100% { right: 0; }
+}
+
+@media (min-width: 650px) {
+  li.nav-item.signout{
+    border-right: none;
+  }
+  .header .nav {
+    margin-top: 20px;
+    clear: none;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }  
+  .header .menu-btn:checked ~ .nav {
+    position: initial;
+    flex-direction: initial;
+  }
+  .header .menu-btn ~ .nav {
+    margin: 0;
+    border: none;
+    position: initial;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    float: initial;
+  }
+}
