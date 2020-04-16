@@ -37,7 +37,7 @@ const Home = () => {
                         priceless keepsake allowing you to treasure the memory forever.  
                     </p>
                 </div>
-                {quoteOne()}
+                {quoteTwo()}
             </section>
 
         <section >
@@ -45,11 +45,11 @@ const Home = () => {
                 <ReactPlayer
                     url="https://vimeo.com/381476056"
                     className='highlight-player'
-                    light='./pics/A&C.webp'
+                    light='./pics/C&A.webp'
                     controls
                     playing
-                    width="500px"
-                    height='220px'
+                    height="300px"
+                    width="100%"
                 />
             </div>
             <div className="our-work">
@@ -57,7 +57,7 @@ const Home = () => {
                     <div className="button-work">
                         <h2>Our Work</h2>
                         <div className="img-holder-one">
-                            <img src="./pics/mePS.webp"/>
+                            <img src="./pics/me.webp"/>
                         </div>
                     </div>
                 </Link>
@@ -65,7 +65,7 @@ const Home = () => {
                     <div className="button-work">
                         <h2>Packages</h2>
                         <div className="img-holder-two">
-                            <img src="./pics/cakePS.webp"/>
+                            <img src="./pics/cake.webp"/>
                         </div>
                     </div>
                 </Link>
@@ -77,7 +77,7 @@ const Home = () => {
                 <div className="profile">
                     <div className="img-title-container">
                         <div className="profile-pic">
-                        <img src="https://lh3.googleusercontent.com/-SN-vF4nLY5-RP4a9qAgbDMUuscdrLbNMqXkW_aBasObQbNFNeZ4Eh-vH09tq6zrsQ4OfnjuE2ZNIsaT7ToQ7qS2qiNjS3m-Q7fdEcShgRp9vNY5FJtOGyne_2ydYdTx1eIhcz3NvOXw_jb14Lk0i8-ri67nWhrtr-0kmWSbtAt-AKifYspnifSF2az08CDUopv7YKWma3DmihLzuBvpoXfGmSaxaGp53UTq0GDADG4qq8nRYNpTDX6kEivCCPwWfq-NJQpemtCmnMXeIZDb1J_QMrMJFScpfvnBQXOI1z6Ho2azSdynL0QKZ0lRvB_LfV-w_8Noo7LNs9jSQqdrxiaJ4IgiemRKhgnxk652_bvN19G3hZ7ko4IcRcnqGaDa7TXvw80QDsC0ynQ_W7vaO1w-NZJTyh4f1RxsjRab7G5bWdtMMAStbTXjfwXS-nMQLhljL5Zja8lvwYqnNliG5hIk67AjT2npfnP37z-rngcSN6_5owAVMLiPFYGiuBEG5MITAgNRtqL9JfUVFU7KvTbvZsbmahQtBznjYLuMQqruYbaFg43D7ad3yT0KhG8JDCRoesUPWRw4bH4ih0L8rbrNIEI_zOom5HcjwvK5g8Zv_g-hDWhe37y4vcAJHeTcncyUzGQNt8hpv3xFCYsmnjI8dVxtiWysoXZCyMevP5cW7WeNOFRuePhUy5VC_A=w483-h609-no"/>
+                        <img src="./pics/greg.png"/>
                         </div>
                         <h3>Eastside Wedding Videography</h3>
                     </div>
@@ -98,7 +98,7 @@ const Home = () => {
                 </div>
             </div>
         </section>
-        {quoteTwo()}
+        {quoteOne()}
         <div className="img-banner">
             <img src="./pics/girls.webp"/>
         </div>

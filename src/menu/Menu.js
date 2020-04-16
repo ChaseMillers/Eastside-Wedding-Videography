@@ -38,9 +38,9 @@ const Menu = () => {
               spy={true}
               smooth={true}
               offset={-70}
-              to="portfolio-anchor"
+              to="/ourwork"
             >
-              Portfolio
+              Our Work
             </Link>
           </li>
           

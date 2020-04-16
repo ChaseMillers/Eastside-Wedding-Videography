@@ -1,8 +1,9 @@
 .video-holder-home{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
+    max-width: 500px;
+    margin: 0 auto;
 }
+
 .message p{
     padding: -0 10px;
 }

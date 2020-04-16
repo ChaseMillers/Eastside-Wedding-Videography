@@ -79,10 +79,8 @@ const Contact = () => {
         className="contact-input"
         type="tel"
         name="phone"
-        pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
         value={phone}
         onChange={handleChange("phone")}
-        required
       />
     <label for="how">How did you hear about us?</label>
       <input
@@ -91,7 +89,6 @@ const Contact = () => {
         value={how}
         name="how"
         onChange={handleChange("how")}
-        required
       />
     <label for="location">Venue/Locations<span className="optional">*</span></label>
     <input

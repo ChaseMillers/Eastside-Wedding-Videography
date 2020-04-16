@@ -22,7 +22,7 @@ const Testimonials = () =>{
             <h1 className="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
             <div className="test">
                 <p>
-                    "the video looks just like how we pictured our wedding day. 
+                    "The video looks just like how we pictured our wedding day. 
                     We are so thankful to have the memories forever to look back on!"
                 </p>
                 <p className="quoter">- Nathan & Acacia </p>
