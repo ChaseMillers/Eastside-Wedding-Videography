@@ -14,7 +14,7 @@ const Layout = ({
         <Fragment>   
             <Logo />
             <StickyHeader />
-                {children}
+            {children}
         </Fragment>
     );
 

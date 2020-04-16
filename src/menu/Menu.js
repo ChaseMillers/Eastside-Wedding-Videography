@@ -34,10 +34,6 @@ const Menu = () => {
           <li className="nav-item">
             <Link
               className="nav-link"
-              activeClass="active"
-              spy={true}
-              smooth={true}
-              offset={-70}
               to="/ourwork"
             >
               Our Work
@@ -47,31 +43,15 @@ const Menu = () => {
           <li className="nav-item">
             <Link 
             className="nav-link"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            to="packages-anchor">
+            to="/packages">
               Packages
-            </Link>
-          </li>
-          
-          <li className="nav-item">
-            <Link 
-            className="nav-link"  
-            to="/">
-              Testimonials
             </Link>
           </li>
 
           <li className="nav-item">
           <Link 
             className="nav-link"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            offset={-80}
-            to="contact-anchor">
+            to="/">
               Contact
             </Link>
           </li>

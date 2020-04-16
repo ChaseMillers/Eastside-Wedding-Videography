@@ -2,43 +2,81 @@ import React, { useEffect } from "react";
 import Layout from "../Layout/Layout"
 import ReactPlayer from 'react-player'
 import "./ourWork.css"
+import Testimonials from "../testimonials/Testimonials"
 
 const ourWork = () => {
+    const {
+        quoteAdamClara,
+        quoteNateAcacia,
+        quoteAustinSarah
+    } = Testimonials();
 
     return (
         <Layout>
             <div className="portfolio-container">
-                <section className="highlights">
-                    <h1 className="title">Highlights</h1>
+                    <h1 className="title">Our Work</h1>
+                <section>
+                    <h2 className="title">Highlight Films</h2>
                     <div className="portfolio">
                             <ReactPlayer
-                            url="https://vimeo.com/381476056"
-                            className='highlight-player'
-                            light
-                            controls
-                            playing
-                            width="100%"
-                            height='200px'
+                                url="https://vimeo.com/381476056"
+                                className='highlight-player'
+                                light="https://i.imgur.com/0XJfFmm.jpg"
+                                controls
+                                playing
+                                width="100%"
+                                height='300px'
                             />
+                            {quoteAdamClara()}
+
                             <ReactPlayer
-                            url="https://vimeo.com/381475474"
-                            className='highlight-player'
-                            light='https://i.imgur.com/AghAPJ9.jpg'
-                            controls
-                            playing
-                            width="100%"
-                            height='200px'
+                                url="https://vimeo.com/381475474"
+                                className='highlight-player'
+                                light='https://i.imgur.com/EzAwSyr.jpg'
+                                controls
+                                playing
+                                width="100%"
+                                height='300px'
                             />
+                            {quoteNateAcacia()}
+
                             <ReactPlayer
-                            url="https://vimeo.com/381475965"
-                            className='highlight-player'
-                            light='https://i.imgur.com/sdNucKC.jpg'
-                            controls
-                            playing
-                            width="100%"
-                            height='200px'
+                                url="https://vimeo.com/381475965"
+                                className='highlight-player'
+                                light='https://i.imgur.com/1GyrdJb.jpg'
+                                controls
+                                playing
+                                width="100%"
+                                height='300px'
                             />
+                            {quoteAustinSarah()}
                     </div>
+                </section>
+                <section>
+                    <h2 className="title">One-Minute Teaser Films</h2>
+                    <p>This is a 60 Second Highlight Teaser of your wedding, 
+                        perfect for sharing your special day with on Social Media.</p>
+                        <div className="portfolio">
+                            <ReactPlayer
+                                url="https://vimeo.com/381476132"
+                                className='highlight-player'
+                                light="https://i.imgur.com/ZMC5hYs.jpg"
+                                controls
+                                playing
+                                width="100%"
+                                height='300px'
+                            />
+                            <br/>
+                            <ReactPlayer
+                                url="https://vimeo.com/381476165"
+                                className='highlight-player'
+                                light="https://i.imgur.com/D52Vx0B.jpg"
+                                controls
+                                playing
+                                width="100%"
+                                height='300px'
+                            />
+                        </div>
                 </section>
         </div>
         </Layout>

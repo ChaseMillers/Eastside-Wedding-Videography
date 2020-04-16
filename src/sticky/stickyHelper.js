@@ -6,7 +6,9 @@ const StickyHeader = () => {
   const [isSticky, setSticky] = useState(false);
   const ref = useRef(null);
   const handleScroll = () => {
+    if (ref.current){
     setSticky(ref.current.getBoundingClientRect().top <= 0);
+    }
   };
 
   useEffect(() => {
@@ -15,7 +17,7 @@ const StickyHeader = () => {
     return () => {
       window.removeEventListener('scroll', () => handleScroll);
     };
-  }, [setSticky]);
+  }, []);
 
   return (
     <div className={`sticky-wrapper${isSticky ? ' sticky' : ''}`} ref={ref}>

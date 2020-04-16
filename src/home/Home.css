@@ -4,16 +4,20 @@
     margin: 0 auto;
 }
 
-.message p{
-    padding: -0 10px;
+.message{
+    margin-top: 10px;
+    text-align: center;
 }
 .message h1{
-    margin: 0;
+  font-size: 23px;
 }
-.message{
-    text-align: center;
-    padding: 10px;
+.message p{
+    color: #8a8a8a;
+    padding: 0 10px;
+    margin: 0 auto;
+    font-size: 17px;
 }
+
 .img-holder-one{
     margin-top: 30px;
     max-width: 500px;
@@ -59,7 +63,7 @@ img{
     max-width: 500px;
 }
 .profile-text{
-    padding: 10px;
+    padding: 0 20px;
     max-width: 500px;
     margin: 0 auto;
 }

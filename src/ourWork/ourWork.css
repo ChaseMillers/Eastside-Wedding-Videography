@@ -1,0 +1,19 @@
+.portfolio-container h1{
+    font-family: 'Old Standard TT';
+    text-align: center;
+}
+.portfolio-container h2{
+    padding-top: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.portfolio-container p{
+    color: #8a8a8a;
+    padding: 0 30px 20px 30px;
+    margin: 0 auto;
+    font-size: 17px;
+}
+.highlight-player{
+    max-width: 500px;
+    margin: 0 auto;
+}
