@@ -4,19 +4,23 @@ import ReactPlayer from 'react-player'
 import "./ourWork.css"
 import Testimonials from "../testimonials/Testimonials"
 
-const ourWork = () => {
+const OurWork = () => {
     const {
         quoteAdamClara,
         quoteNateAcacia,
         quoteAustinSarah
     } = Testimonials();
+    
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
 
     return (
         <Layout>
             <div className="portfolio-container">
                     <h1 className="title">Our Work</h1>
                 <section>
-                    <h2 className="title">Highlight Films</h2>
+                    <h2 className="title">Cinematic Highlight Films</h2>
                     <div className="portfolio">
                             <ReactPlayer
                                 url="https://vimeo.com/381476056"
@@ -86,4 +90,4 @@ const ourWork = () => {
     );
 };
 
-export default ourWork;
+export default OurWork;

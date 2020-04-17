@@ -1,4 +1,4 @@
-import React, { Fragment} from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import "./Home.css"
 import Buttons from '../buttons/Buttons'
 import ReactPlayer from 'react-player'
@@ -15,7 +15,16 @@ const Home = () => {
         quoteOne,
         quoteTwo
     } = Testimonials();
+
+    // useEffect(() => {
+    //     window.scrollTo(0, 0)
+    //   }, [])
     
+    const [scroll, setScroll] = useState(false)
+    const contactScroll = () =>{
+        window.scrollTo(0, 0)
+    }
+
     return(
         <Layout>
             <section>

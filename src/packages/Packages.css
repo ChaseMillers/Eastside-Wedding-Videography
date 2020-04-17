@@ -6,15 +6,30 @@
     margin: 0 auto;
     padding: 0 30px;
 }
-/* Package Title */
+.packages-container h1{
+    text-align: center;
+    font-weight: 500;
+}
 .packages h2{
     text-align: center;
+    font-weight: 600;
     font-size: 20px;
-    color: rgb(0, 0, 0);
     margin: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 30px;
 }
-/* Package Price */
+.packages-container ul{
+    max-width: 500px;
+    padding: 0 10px 20px 50px;
+    margin: 0 auto;
+}
+.every-package{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 10px;
+}
+
+/* Package BOX */
 .packages h3{
     text-align: center;
     font-weight: 500;
@@ -22,31 +37,27 @@
     margin: 10px;
     color: grey;
 }
-.packages li{
-    font-size: 18px;
-    text-align: start;
-}
-.packages ul{
-    display: inline-block;
-    margin: 0 auto;
-}
 .package{
     margin-bottom: 10px;
     border: 1px solid black;
     width: 100%;
     text-align: center;
 }
+
+.title-bonus{
+    margin: 0;
+    padding: 0;
+}
 .bonus{
-    font-weight: 600;
+    font-weight: bold;
+    padding: 0 0 5px 0;
+    margin: 0;
 }
-.package-list{
-
-}
-.package-inline{
-    
+.starting-at{
+    padding-top: 30px;
 }
 
-
+/**** UPGRADES OPTIONS ****/
 .add-ons{
     display: flex;
     flex-direction: column;
@@ -65,12 +76,7 @@
     justify-content: center;
     align-items: center;
 }
-/* Add on title */
-.add-on h2{
-    font-size: 18px;
-    font-weight: 500;
-    margin: 10px;
-}
+
 /* Add on price */
 .add-on h3{
     text-align: center;
@@ -83,22 +89,10 @@
     margin: 0px;
     padding: 5px;
 }
-.add-on-inline{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .add-ons-title{
-    padding: 0 30px;
-    font-weight: lighter;
-    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
 }
 .buttoninContainer{
     display: flex;
-}
-.view{
-    padding: -3px 6px;
-    line-height: 15px;
-    border-radius: 50%;
-    margin-bottom: 5px;
 }

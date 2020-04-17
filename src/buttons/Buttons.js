@@ -10,32 +10,16 @@ const Buttons = () =>{
                     className="video-btn"  
                     spy={true}
                     smooth={true}
-                    offset={-80}
+                    offset={-75}
                     to="contact-anchor">
                     Contact Us
                 </Link>
             </div>
         )
     }
-    const contactBtn = () =>{
-        return(
-            <div className="btn-contact-container">
-                <Link 
-                    className="contact-btn"  
-                    spy={true}
-                    smooth={true}
-                    offset={-90}
-                    to="contact-anchor">
-                    Contact Us
-                </Link>
-            </div>
-        )
-    }
-
-
+   
     return {
         videoContactBtn,
-        contactBtn
     }
 }
 export default Buttons
