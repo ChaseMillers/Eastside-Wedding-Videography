@@ -54,7 +54,7 @@ const ourWork = () => {
                 </section>
                 <section>
                     <h2 className="title">One-Minute Teaser Films</h2>
-                    <p>This is a 60 Second Highlight Teaser of your wedding, 
+                    <p className="teaser-text">This is a 60 Second Highlight Teaser of your wedding, 
                         perfect for sharing your special day with on Social Media.</p>
                         <div className="portfolio">
                             <ReactPlayer
@@ -66,16 +66,19 @@ const ourWork = () => {
                                 width="100%"
                                 height='300px'
                             />
-                            <br/>
+                            <p className="name">Nathan & Acacia </p>
+                         
                             <ReactPlayer
                                 url="https://vimeo.com/381476165"
                                 className='highlight-player'
-                                light="https://i.imgur.com/D52Vx0B.jpg"
+                                light="https://i.imgur.com/cK4wVCO.jpg"
                                 controls
                                 playing
                                 width="100%"
                                 height='300px'
                             />
+                            <p className="name">Adam & Clara </p>
+                            
                         </div>
                 </section>
         </div>

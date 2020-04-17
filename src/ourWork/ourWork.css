@@ -17,3 +17,10 @@
     max-width: 500px;
     margin: 0 auto;
 }
+.name{
+    margin: 10px 0 !important;
+    text-align: center;
+}
+.teaser-text{
+    max-width: 560px;
+}

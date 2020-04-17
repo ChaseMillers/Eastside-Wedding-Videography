@@ -8,10 +8,12 @@ const Testimonials = () =>{
             <h1 className="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
             <div className="quote">
                 <p>
-                    "Eastside Wedding Videography captured our memories, 
-                    and made them shine. "
+                    "We can always pull out 
+                    our wedding video to watch the pure magic of sharing vows, 
+                    the tear jerking toasts, and the amazing people that came to 
+                    support us."
                 </p>
-                <p className="quoter">- Chase & Sofia </p>
+                <p className="quoter">- Austin & Sarah </p>
             </div>
         </div>
     )
@@ -62,17 +64,18 @@ const Testimonials = () =>{
     )
 
     const quoteAustinSarah = () =>(
-        <div className="quote-container larger-quote">
+        <div className="quote-container">
             <h1 className="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
             <div className="quote">
                 <p>
-                    "Our wedding day was one of the best days of our lives. 
-                    It was the day we became accountable to one another and 
-                    started our family. Thanks to Greg, we can always pull out 
+                    "Thanks to Greg, we can always pull out 
                     our wedding video to watch the pure magic of sharing vows, 
                     the tear jerking toasts, and the amazing people that came to 
                     support us. Greg not only caught the details and wedding 
-                    ceremony but also the “behind the scenes” parts that make our relationship special, he also worked alongside our photographers with no issues. We love Greg’s work and are thankful to have lasting memories of our favorite day!"
+                    ceremony but also the “behind the scenes” parts that make our 
+                    relationship special, he also worked alongside our photographers 
+                    with no issues. We love Greg’s work and are thankful to have 
+                    lasting memories of our favorite day!"
                 </p>
                 <p className="quoter">- Austin & Sarah </p>
             </div>
