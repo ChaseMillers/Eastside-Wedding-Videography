@@ -50,6 +50,7 @@ a.nav-link:hover {
   border-bottom: black solid 1px;
   float: right;
   padding-left: 100%;
+  padding-top: 2px;
   padding-bottom: 1px;
   -webkit-user-select: none;
   -moz-user-select: none;
