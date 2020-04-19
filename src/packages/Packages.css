@@ -1,3 +1,6 @@
+.packages-container{
+    margin-top: 90px;
+}
 .packages{
     display: flex;
     flex-direction: column;
@@ -26,7 +29,7 @@
     text-align: center;
     font-weight: 600;
     font-size: 20px;
-    margin: 10px;
+    margin: 20px 0 10px 0;
 }
 
 /* Package BOX */
@@ -68,8 +71,8 @@
 }
 .add-on{
     margin-bottom: 10px;
+    padding-bottom: 20px;
     border: 1px solid black;
-    width: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -95,4 +98,15 @@
 }
 .buttoninContainer{
     display: flex;
+}
+
+@media (min-width: 700px){
+    .packages{
+        flex-direction: row;
+        max-width: 800px;
+    }
+    .package{
+        margin: 0 5px 10px 5px;
+    }
+    
 }

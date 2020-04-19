@@ -8,10 +8,9 @@
 
 a.nav-link {
   text-decoration: none;
-  color: rgb(0, 0, 0);
 }
 a.nav-link:hover {
-  color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0) !important;
   font-weight: 500;
 }
 
@@ -19,7 +18,9 @@ a.nav-link:hover {
   padding: 6.4px 30px;
   display: block;
 }
-
+a.nav-link:hover {
+  color: black;
+}
 /* Hamburger Nav */
 .eJApds{
   width: 30px !important;
@@ -47,9 +48,9 @@ a.nav-link:hover {
 .header .menu-icon {
   background-color: rgba(255, 255, 255, 0.65);
   border-bottom: black solid 1px;
-  cursor: pointer;
   float: right;
   padding-left: 100%;
+  padding-bottom: 1px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -122,5 +123,6 @@ li.nav-item {
     display: flex;
     justify-content: center;
     float: initial;
+    border-bottom: 1px solid;
   }
 }

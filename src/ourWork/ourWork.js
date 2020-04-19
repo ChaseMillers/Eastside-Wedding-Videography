@@ -29,7 +29,7 @@ const OurWork = () => {
                                 controls
                                 playing
                                 width="100%"
-                                height='300px'
+                                height='200px'
                             />
                             {quoteAdamClara()}
 
@@ -40,7 +40,7 @@ const OurWork = () => {
                                 controls
                                 playing
                                 width="100%"
-                                height='300px'
+                                height='200px'
                             />
                             {quoteNateAcacia()}
 
@@ -51,7 +51,7 @@ const OurWork = () => {
                                 controls
                                 playing
                                 width="100%"
-                                height='300px'
+                                height='200px'
                             />
                             {quoteAustinSarah()}
                     </div>
@@ -59,7 +59,7 @@ const OurWork = () => {
                 <section>
                     <h2 className="title">One-Minute Teaser Films</h2>
                     <p className="teaser-text">This is a 60 Second Highlight Teaser of your wedding, 
-                        perfect for sharing your special day with on Social Media.</p>
+                        perfect for sharing your special day with friends and family on Social Media.</p>
                         <div className="portfolio">
                             <ReactPlayer
                                 url="https://vimeo.com/381476132"
@@ -68,18 +68,18 @@ const OurWork = () => {
                                 controls
                                 playing
                                 width="100%"
-                                height='300px'
+                                height='200px'
                             />
                             <p className="name">Nathan & Acacia </p>
                          
                             <ReactPlayer
                                 url="https://vimeo.com/381476165"
                                 className='highlight-player'
-                                light="https://i.imgur.com/cK4wVCO.jpg"
+                                light="https://i.imgur.com/E4V4Vpu.jpg"
                                 controls
                                 playing
                                 width="100%"
-                                height='300px'
+                                height='200px'
                             />
                             <p className="name">Adam & Clara </p>
                             

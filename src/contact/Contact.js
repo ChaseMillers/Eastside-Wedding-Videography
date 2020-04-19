@@ -1,8 +1,14 @@
-import React, { useState, Fragment } from 'react';
+import React, { useState, useEffect, Fragment } from 'react';
 import { API } from "../config"
 import "./Contact.css" 
+import Layout from "../Layout/Layout"
+
+const Contacts = () =>{
 
 const Contact = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   
   const [data, setData] = useState({
     loading: false,
@@ -130,4 +136,18 @@ const Contact = () => {
     );
 }
 
-export default Contact;
+const ContactPage = () =>(
+  <Layout>
+    <div className="contact-container">
+      <h1>Contact</h1>
+      {Contact()}
+    </div>
+  </Layout>
+);
+
+return{
+  Contact,
+  ContactPage
+}
+}
+export default Contacts;

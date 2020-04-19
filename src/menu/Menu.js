@@ -1,10 +1,10 @@
 import React, { useState, useRef, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
 import { HamburgerSqueeze } from 'react-animated-burgers'
 import './Menu.css';
 import useOutsideClick from "./menuHelper"
 
-const Menu = () => {
+const Menu = ({ history }) => {
 
   const [active, setActive] = useState(false);
   const toggleButton = () => setActive(!active);
@@ -13,6 +13,13 @@ const Menu = () => {
   useOutsideClick(ref, () => {
     setActive(false)
   });
+  const isActive = (history, path) => {
+    if (history.location.pathname === path) {
+        return { color: '#000000' };
+    } else {
+        return { color: '#a5a5a5' };
+    }
+  };
   return (
     <div className="header" id="menu-container" onBlur="toggleButton" ref={ref}>
         <input className="menu-btn" type="checkbox" id="menu-btn" checked={active}/>
@@ -26,6 +33,7 @@ const Menu = () => {
           <li className="nav-item">
             <Link 
             className="nav-link"  
+            style={isActive(history, '/')} 
             to="/">
               Home
             </Link>
@@ -34,6 +42,7 @@ const Menu = () => {
           <li className="nav-item">
             <Link
               className="nav-link"
+              style={isActive(history, '/ourwork')} 
               to="/ourwork"
             >
               Our Work
@@ -43,6 +52,7 @@ const Menu = () => {
           <li className="nav-item">
             <Link 
             className="nav-link"
+            style={isActive(history, '/packages')} 
             to="/packages">
               Packages
             </Link>
@@ -51,9 +61,10 @@ const Menu = () => {
           <li className="nav-item">
           <Link 
             className="nav-link"
+            style={isActive(history, '/contact')} 
             to="/contact">
               Contact
-            </Link>
+          </Link>
           </li>
           
         </ul>
@@ -61,4 +72,4 @@ const Menu = () => {
   );
 };
 
-export default Menu;
+export default withRouter(Menu);

@@ -1,9 +1,7 @@
-.video-holder-home{
-    height: 100%;
-    max-width: 500px;
-    margin: 0 auto;
-}
 
+.home-container{
+    margin-top: 61px;
+}
 .message{
     margin: 10px auto 0 auto;
     max-width: 500px;
@@ -19,14 +17,9 @@
     font-size: 17px;
 }
 
-.img-holder-one{
-    margin-top: 30px;
+.img-holder{
     max-width: 500px;
-    cursor: pointer;
-}
-.img-holder-two{
-    margin-top: 30px;
-    max-width: 500px;
+    margin: 0 20px;
 }
 /* on home-link hover, effect only img-holder */
 .home-link:hover .button-work img{
@@ -64,8 +57,8 @@ img{
     width: 100%;
 }
 .profile{
-    margin: 40px auto 0 auto;
-    padding-top: 30px;
+    margin: 20px auto 0 auto;
+    padding-top: 0px;
     max-width: 500px;
 }
 .profile-text{
@@ -101,5 +94,32 @@ img{
     flex-direction:column;
     align-items: center;
     justify-content: center;
+    max-height: 150px;
+    overflow: hidden;
+    margin: 20px 0 0 0;
 }
 
+@media (min-width: 650px){
+    .home-container{
+        margin-top: 49px;
+    }
+    .profile{
+        padding-top:20px;
+    }
+    .img-holder{
+        margin: 0;
+    }
+    .our-work{
+        display: flex;
+        flex-direction: row;
+    }
+    .img-holder{
+        max-width: 370px;
+    }
+    .one{
+        margin: 20px 10px 20px 10px;
+    }
+    .two{
+        margin: 20px 10px 20px 10px;
+    }
+}
