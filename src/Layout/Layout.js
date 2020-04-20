@@ -6,6 +6,7 @@ import Logo from "../logo/Logo"
 import "./Layout.css"
 import Packages from "../packages/Packages"
 import Buttons from "../buttons/Buttons"
+import Footer from "../footer/Footer"
 
 const Layout = ({
     className,
@@ -15,6 +16,7 @@ const Layout = ({
             <Logo />
             <StickyHeader />
             {children}
+            <Footer />
         </Fragment>
     );
 

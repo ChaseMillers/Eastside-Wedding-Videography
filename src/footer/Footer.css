@@ -1,0 +1,38 @@
+.footer{
+    color: rgb(88, 88, 88);
+    padding: 20px;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+}
+
+.social-text{
+    color:rgb(145, 145, 145);
+    font-size:25px; 
+}
+.email{
+    margin: 10px;
+}
+.contact-icons{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.fab{
+    color: rgb(59, 59, 59);
+    font-size: 40px;
+}
+
+a{ 
+    text-decoration: none;
+ }
+
+.contact-icons ul li {
+    width: 60px;
+    list-style: none;
+    display: inline-block;
+}
+
+.ul-icons{
+    padding: 0;
+}
