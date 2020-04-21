@@ -47,6 +47,7 @@ a{
 }
 .optional{
     margin-right: -5px;
+    float: right;
     color: rgb(182, 182, 182);
 }
 .contact-container{
