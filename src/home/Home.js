@@ -31,7 +31,7 @@ const Home = () => {
                     url="/videos/demoC.mp4"
                     className='react-player'
                     playing
-                    preload
+                    preload="true"
                     muted
                     loop
                     width='100%'
@@ -62,7 +62,9 @@ const Home = () => {
                             <div className="button-work one">
                                 <h2>Our Work</h2>
                                 <div className="img-holder">
-                                    <img src="./pics/me.webp"/>
+                                    <img 
+                                    src="./pics/me.webp"
+                                    alt="Bride and Groom" />
                                 </div>
                             </div>
                         </Link>
@@ -70,7 +72,8 @@ const Home = () => {
                             <div className="button-work two">
                                 <h2>Packages</h2>
                                 <div className="img-holder">
-                                    <img src="./pics/cake.webp"/>
+                                    <img src="./pics/cake.webp"
+                                    alt="Wedding cake"/>
                                 </div>
                             </div>
                         </Link>
@@ -82,7 +85,9 @@ const Home = () => {
                         <div className="profile">
                             <div className="img-title-container">
                                 <div className="profile-pic">
-                                <img src="./pics/greg.png"/>
+                                <img 
+                                src="./pics/greg.png" 
+                                alt="profile shot of owner"/>
                                 </div>
                                 <h3>Eastside Wedding Videography</h3>
                             </div>
@@ -105,7 +110,10 @@ const Home = () => {
                 </section>
                 {quoteOne()}
                 <div className="img-banner">
-                    <img src="./pics/girls.webp"/>
+                    <img 
+                    src="./pics/girls.webp"
+                    alt="flower girls walking down aisle"
+                    />
                 </div>
                 {Contact()}
             </div>

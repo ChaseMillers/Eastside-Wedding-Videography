@@ -37,7 +37,7 @@ const Contact = () => {
   const handleSubmit = async e => {
     e.preventDefault();
     setData({ loading: true });
-    const response = await fetch(`${API}/api/contact`, {
+    await fetch(`${API}/api/contact`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -62,7 +62,7 @@ const Contact = () => {
 
   const form = showForm => (
   showForm && <form onSubmit={handleSubmit}>
-    <label for="name">Name<span className="optional">*</span></label>
+    <label htmlFor="name">Name<span className="optional">*</span></label>
       <input
         className="contact-input"
         type="text"
@@ -71,7 +71,7 @@ const Contact = () => {
         onChange={handleChange("name")}
         required
       />
-    <label for="email">Email<span className="optional">*</span></label>
+    <label htmlFor="email">Email<span className="optional">*</span></label>
       <input
         className="contact-input"
         type="text"
@@ -80,7 +80,7 @@ const Contact = () => {
         onChange={handleChange("email")}
         required
       />
-      <label for="email">Phone </label>
+      <label htmlFor="email">Phone </label>
       <input
         className="contact-input"
         type="tel"
@@ -88,7 +88,7 @@ const Contact = () => {
         value={phone}
         onChange={handleChange("phone")}
       />
-    <label for="how">How did you hear about us?<span className="optional">*</span></label>
+    <label htmlFor="how">How did you hear about us?<span className="optional">*</span></label>
       <input
         className="contact-input"
         type="text"
@@ -97,7 +97,7 @@ const Contact = () => {
         onChange={handleChange("how")}
         required
       />
-    <label for="location">Venue/Locations<span className="optional">*</span></label>
+    <label htmlFor="location">Venue/Locations<span className="optional">*</span></label>
     <input
       className="contact-input"
       type="text"
@@ -106,7 +106,7 @@ const Contact = () => {
       onChange={handleChange("location")}
       required
     />
-    <label for="message">Tell us about your event </label>
+    <label htmlFor="message">Tell us about your event </label>
       <textarea
         className="contact-input tell-us"
         type="textarea"
@@ -120,9 +120,11 @@ const Contact = () => {
     return (
       <Fragment>
         <div className="comp-info" id="contact-anchor">
-          <a href="tel:+4252138204">(425) 213-8204</a>
+          <a href="tel:+4252138204" rel="noopener noreferrer">
+            (425) 213-8204</a>
           <br/>
           <a href="mailto:eastsideweddingvideo@gmail.com" 
+          rel="noopener noreferrer"
           target="_blank">eastsideweddingvideo@gmail.com</a>
         </div>
           <h3 className="contact-header">

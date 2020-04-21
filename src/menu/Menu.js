@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef } from "react";
 import { Link, withRouter } from "react-router-dom";
 import { HamburgerSqueeze } from 'react-animated-burgers'
 import './Menu.css';
@@ -21,8 +21,8 @@ const Menu = ({ history }) => {
     }
   };
   return (
-    <div className="header" id="menu-container" onBlur="toggleButton" ref={ref}>
-        <input className="menu-btn" type="checkbox" id="menu-btn" checked={active}/>
+    <div className="header" id="menu-container" ref={ref}>
+        <input onChange={e => {}} className="menu-btn" type="checkbox" id="menu-btn" checked={active}/>
         <label className="menu-icon" htmlFor="menu-btn">
           <span className="navicon">
            <HamburgerSqueeze isActive={active} toggleButton={toggleButton} />

@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Buttons.css"
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 const Buttons = () =>{
     const videoContactBtn = () =>{
