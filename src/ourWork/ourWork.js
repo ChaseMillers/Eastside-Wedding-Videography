@@ -1,8 +1,9 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Layout from "../Layout/Layout"
 import ReactPlayer from 'react-player'
 import "./ourWork.css"
 import Testimonials from "../testimonials/Testimonials"
+import VideoPlayer from "../videoPlayer/VideoPlayer"
 
 const OurWork = () => {
     const {
@@ -10,10 +11,11 @@ const OurWork = () => {
         quoteNateAcacia,
         quoteAustinSarah
     } = Testimonials();
-    
+
     useEffect(() => {
         window.scrollTo(0, 0)
-      }, [])
+    }, [])
+
 
     return (
         <Layout>
@@ -21,23 +23,13 @@ const OurWork = () => {
                     <h1 className="title">Our Work</h1>
                 <section>
                     <h2 className="title">Cinematic Highlight Films</h2>
+
                     <div className="portfolio">
-                            <ReactPlayer
-                                url="https://vimeo.com/381476056"
-                                className='highlight-player'
-                                light="https://i.imgur.com/0XJfFmm.jpg"
-                                controls
-                                playing
-                                width="100%"
-                                height='200px'
-                                config={{
-                                    playerOptions: { fullscreen: false }
-                                }}
-                            />
+                        
+                <VideoPlayer />
                             {quoteAdamClara()}
 
-                            <div style={{padding: '56.25% 0 0 0', position: 'relative'}}><iframe src="https://player.vimeo.com/video/381476056?title=0&byline=0&portrait=0" style={{position:'absolute', top:'0', left:'0', width:'100%', height:'100%'}} frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
-                            <ReactPlayer
+                              <ReactPlayer
                                 url="https://vimeo.com/381475474"
                                 className='highlight-player'
                                 light='https://i.imgur.com/EzAwSyr.jpg'
