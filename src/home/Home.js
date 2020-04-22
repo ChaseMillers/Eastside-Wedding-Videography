@@ -48,6 +48,7 @@ const Home = () => {
                 </section>
 
                 <section >
+                    
                         <ReactPlayer
                             url="https://vimeo.com/381476056"
                             className='highlight-player'

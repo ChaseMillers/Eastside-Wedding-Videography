@@ -28,6 +28,10 @@
     max-width: 860px;
     text-align: center;
 }
+.player .vp-target {
+    position: initial;
+}
+
 @media (min-width: 650px){
     .highlight-player{
         padding: 0 20px;
