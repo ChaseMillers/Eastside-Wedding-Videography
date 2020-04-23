@@ -5,8 +5,8 @@ import "./VideoPlayer.css"
 import Testimonials from "../testimonials/Testimonials"
 
 const VideoPlayer = ({
-    video,
-    img
+    videoURL,
+    imgURL
 }) => {
     
     const [light, setLight] = useState(true);
@@ -15,10 +15,10 @@ const VideoPlayer = ({
         setLight(false)
     } 
 
-    const adamClara = (light) =>(
+    const video = (light) =>(
         light && 
             <iframe 
-                src="https://player.vimeo.com/video/381476056?autoplay=1" 
+                src={videoURL} 
                 frameborder="0" 
                 allow="autoplay; fullscreen" 
                 allowfullscreen>
@@ -30,9 +30,9 @@ const VideoPlayer = ({
             {light && 
             <div className="video-preload" onClick={()=>{videoHandle()}}>
             <span class="playButton">►</span>
-                <img className="light-photo" src="https://i.imgur.com/0XJfFmm.jpg"/>
+                <img className="light-photo" src={imgURL}/>
             </div>}
-            {adamClara(!light)}
+            {video(!light)}
         </div>
     );
 };

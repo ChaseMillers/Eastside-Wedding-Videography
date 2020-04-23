@@ -4,6 +4,7 @@
     align-items: center;
     max-width: 500px;
     margin: 20px auto;
+    margin: 0 auto 20px auto;
     padding: 0 30px;
 }
 .quote{
