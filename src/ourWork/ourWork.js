@@ -11,26 +11,14 @@ const OurWork = () => {
         quoteNateAcacia,
         quoteAustinSarah
     } = Testimonials();
-    
+    const {
+        OurWorkVideo
+    } =VideoPlayer()
     const [light, setLight] = useState(false);
 
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
-
-    const videoHandle = () =>{
-        setLight(true)
-    } 
-
-    const adamClara = (light) =>(
-        light && 
-            <iframe 
-                src="https://player.vimeo.com/video/381476056?autoplay=1" 
-                frameborder="0" 
-                allow="autoplay; fullscreen" 
-                allowfullscreen>
-            </iframe>
-    );
 
     return (
         <Layout>
@@ -41,19 +29,19 @@ const OurWork = () => {
 
                     <div className="portfolio">
 
-                        <VideoPlayer 
+                        <OurWorkVideo 
                         imgURL="https://i.imgur.com/0XJfFmm.jpg"
                         videoURL="https://player.vimeo.com/video/381476056?autoplay=1"
                         />
                         {quoteAdamClara()}
 
-                        <VideoPlayer 
+                        <OurWorkVideo 
                         imgURL="https://i.imgur.com/EzAwSyr.jpg"
                         videoURL="https://player.vimeo.com/video/381475474?autoplay=1"
                         />
                         {quoteNateAcacia()}
 
-                        <VideoPlayer 
+                        <OurWorkVideo 
                         imgURL="https://i.imgur.com/1GyrdJb.jpg"
                         videoURL="https://player.vimeo.com/video/381475965?autoplay=1"
                         />
@@ -66,7 +54,7 @@ const OurWork = () => {
                     <p className="teaser-text">This is a 60 Second Highlight Teaser of your wedding, 
                         perfect for sharing your special day with friends and family on Social Media.</p>
                         <div className="portfolio">
-                            <VideoPlayer 
+                            {/* <VideoPlayer 
                                 imgURL="https://i.imgur.com/ZMC5hYs.jpg"
                                 videoURL="https://player.vimeo.com/video/381476132?autoplay=1"
                             />
@@ -75,7 +63,7 @@ const OurWork = () => {
                             <VideoPlayer 
                                 imgURL="https://i.imgur.com/E4V4Vpu.jpg"
                                 videoURL="https://player.vimeo.com/video/381476165?autoplay=1"
-                            />
+                            /> */}
                             <p className="name">Adam & Clara </p>
                             
                         </div>

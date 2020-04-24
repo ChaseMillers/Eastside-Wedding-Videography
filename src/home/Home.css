@@ -46,7 +46,7 @@ img{
     color: white;
     text-shadow: rgb(0, 0, 0) 1px 0 10px;
     z-index: 1;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .profile-pic{
@@ -98,28 +98,35 @@ img{
     overflow: hidden;
     margin: 20px 0 0 0;
 }
-
-@media (min-width: 650px){
+/* @media (min-width: 305px){
+    .our-work h2{
+        font-size:50px;
+    }
+} */
+@media (min-width: 450px){
+    .our-work{
+        display: flex;
+        flex-direction: row;
+    }
+    .img-holder{
+        margin: 0;
+    }
+    .img-holder{
+        max-width: 370px;
+    }
+    .one{
+        margin: 20px 10px 20px 20px;
+    }
+    .two{
+        margin: 20px 20px 20px 10px;
+    }
+}
+@media (min-width: 540px){
     .home-container{
         margin-top: 49px;
     }
     .profile{
         padding-top:20px;
     }
-    .img-holder{
-        margin: 0;
-    }
-    .our-work{
-        display: flex;
-        flex-direction: row;
-    }
-    .img-holder{
-        max-width: 370px;
-    }
-    .one{
-        margin: 20px 10px 20px 10px;
-    }
-    .two{
-        margin: 20px 10px 20px 10px;
-    }
+  
 }

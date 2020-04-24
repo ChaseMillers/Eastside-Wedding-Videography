@@ -1,21 +1,8 @@
-import React, { useEffect, useState } from "react";
-import Layout from "../Layout/Layout"
-import ReactPlayer from 'react-player'
+import React, { useState } from "react";
 import "./VideoPlayer.css"
-import Testimonials from "../testimonials/Testimonials"
 
-const VideoPlayer = ({
-    videoURL,
-    imgURL
-}) => {
-    
-    const [light, setLight] = useState(true);
-
-    const videoHandle = () =>{
-        setLight(false)
-    } 
-
-    const video = (light) =>(
+const VideoPlayer = () => {
+    const video = (light, videoURL) =>(
         light && 
             <iframe 
                 src={videoURL} 
@@ -25,16 +12,38 @@ const VideoPlayer = ({
             </iframe>
     );
 
-    return (
-        <div className="vimeo-container">
-            {light && 
-            <div className="video-preload" onClick={()=>{videoHandle()}}>
-            <span class="playButton">►</span>
-                <img className="light-photo" src={imgURL}/>
-            </div>}
-            {video(!light)}
-        </div>
-    );
+    const OurWorkVideo = ({videoURL,imgURL}) =>{
+        const [light, setLight] = useState(true);
+        return(
+            <div className="vimeo-container">
+                {light && 
+                <div className="video-preload" onClick={()=>{setLight(false)}}>
+                    <span class="playButton">►</span>
+                    <img className="light-photo" src={imgURL}/>
+                </div>}
+                {video(!light, videoURL)}
+            </div>
+        )
+    }
+
+    const HomeVideo = ({videoURL,imgURL}) =>{
+        const [light, setLight] = useState(true);
+        return(
+            <div className="home-vimeo-container">
+                {light && 
+                <div className="video-preload" onClick={()=>{setLight(false)}}>
+                    <span class="playButton">►</span>
+                    <img className="home-light-photo" src={imgURL}/>
+                </div>}
+                {video(!light, videoURL)}
+            </div>
+        )
+    }
+
+    return {
+        OurWorkVideo,
+        HomeVideo
+    };
 };
 
 export default VideoPlayer;

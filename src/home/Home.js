@@ -6,6 +6,7 @@ import Testimonials from "../testimonials/Testimonials"
 import Contacts from "../contact/Contact"
 import { Link } from "react-router-dom";
 import Layout from "../Layout/Layout"
+import VideoPlayer from "../videoPlayer/VideoPlayer"
 
 const Home = () => {
     const {
@@ -18,9 +19,12 @@ const Home = () => {
     const {
         Contact
     } = Contacts();
+    const {
+        HomeVideo
+    } = VideoPlayer();
     useEffect(() => {
         window.scrollTo(0, 0)
-      }, [])
+    }, [])
 
     return(
         <Layout>
@@ -48,16 +52,11 @@ const Home = () => {
                 </section>
 
                 <section >
-                    
-                        <ReactPlayer
-                            url="https://vimeo.com/381476056"
-                            className='highlight-player'
-                            light='./pics/C&A.webp'
-                            controls
-                            playing
-                            height="200px"
-                            width="100%"
-                        />
+                    <HomeVideo 
+                        imgURL="./pics/C&A.webp"
+                        videoURL="https://player.vimeo.com/video/381476056?autoplay=1"
+                    />
+                     
                     <div className="our-work">
                         <Link className="home-link" to="/ourwork">
                             <div className="button-work one">
