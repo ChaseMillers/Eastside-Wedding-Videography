@@ -54,16 +54,15 @@ const OurWork = () => {
                     <p className="teaser-text">This is a 60 Second Highlight Teaser of your wedding, 
                         perfect for sharing your special day with friends and family on Social Media.</p>
                         <div className="portfolio">
-                            {/* <VideoPlayer 
-                                imgURL="https://i.imgur.com/ZMC5hYs.jpg"
-                                videoURL="https://player.vimeo.com/video/381476132?autoplay=1"
+                            <OurWorkVideo 
+                            imgURL="https://i.imgur.com/ZMC5hYs.jpg"
+                            videoURL="https://player.vimeo.com/video/381476132?autoplay=1"
                             />
                             <p className="name">Nathan & Acacia </p>
-                         
-                            <VideoPlayer 
+                            <OurWorkVideo 
                                 imgURL="https://i.imgur.com/E4V4Vpu.jpg"
                                 videoURL="https://player.vimeo.com/video/381476165?autoplay=1"
-                            /> */}
+                            />
                             <p className="name">Adam & Clara </p>
                             
                         </div>

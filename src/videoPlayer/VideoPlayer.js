@@ -42,7 +42,7 @@ const VideoPlayer = () => {
 
     return {
         OurWorkVideo,
-        HomeVideo
+        HomeVideo,
     };
 };
 
