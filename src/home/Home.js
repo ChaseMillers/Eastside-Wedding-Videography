@@ -53,7 +53,7 @@ const Home = () => {
 
                 <section >
                     <HomeVideo 
-                        imgURL="./pics/C&A.webp"
+                        imgURL="https://i.imgur.com/XMDvwwW.jpg"
                         videoURL="https://player.vimeo.com/video/381476056?autoplay=1"
                     />
                      
@@ -63,7 +63,7 @@ const Home = () => {
                                 <h2>Our Work</h2>
                                 <div className="img-holder">
                                     <img 
-                                    src="./pics/me.webp"
+                                    src="https://imgur.com/jgquN5x.jpg"
                                     alt="Bride and Groom" />
                                 </div>
                             </div>
@@ -72,7 +72,7 @@ const Home = () => {
                             <div className="button-work two">
                                 <h2>Packages</h2>
                                 <div className="img-holder">
-                                    <img src="./pics/cake.webp"
+                                    <img src="https://i.imgur.com/clnDaMA.jpg"
                                     alt="Wedding cake"/>
                                 </div>
                             </div>
@@ -86,7 +86,7 @@ const Home = () => {
                             <div className="img-title-container">
                                 <div className="profile-pic">
                                 <img 
-                                src="./pics/greg.png" 
+                                src="https://i.imgur.com/Q9hwDxN.png" 
                                 alt="profile shot of owner"/>
                                 </div>
                                 <h3>Eastside Wedding Videography</h3>
@@ -111,7 +111,7 @@ const Home = () => {
                 {quoteOne()}
                 <div className="img-banner">
                     <img 
-                    src="./pics/girls.webp"
+                    src="https://i.imgur.com/kUULilJ.jpg"
                     alt="flower girls walking down aisle"
                     />
                 </div>
