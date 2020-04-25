@@ -7,6 +7,7 @@ import Contacts from "./contact/Contact"
 import ReactGA from 'react-ga'
 import createHistory from 'history/createBrowserHistory'
 
+
 const Routes = () => {
     const {
         ContactPage

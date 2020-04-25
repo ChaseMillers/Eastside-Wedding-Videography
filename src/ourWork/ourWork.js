@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import Layout from "../Layout/Layout"
 import "./ourWork.css"
 import Testimonials from "../testimonials/Testimonials"
@@ -13,16 +13,14 @@ const OurWork = () => {
     const {
         OurWorkVideo
     } =VideoPlayer()
-    const [light, setLight] = useState(false);
 
     useEffect(() => {
         window.scrollTo(0, 0)
-        
     }, [])
 
     return (
-        <Layout>
-            <div className="portfolio-container">
+        <Layout> 
+            <div className="portfolio-container" >
                     <h1 className="title">Our Work</h1>
                 <section>
                     <h2 className="title">Cinematic Highlight Films</h2>

@@ -18,8 +18,8 @@ const VideoPlayer = () => {
             <div className="vimeo-container">
                 {light && 
                 <div className="video-preload" onClick={()=>{setLight(false)}}>
-                    <span class="playButton">►</span>
-                    <img className="light-photo" src={imgURL}/>
+                    <span className="playButton">►</span>
+                    <img className="light-photo" src={imgURL} alt="video thumbnail"/>
                 </div>}
                 {video(!light, videoURL)}
             </div>
@@ -32,8 +32,8 @@ const VideoPlayer = () => {
             <div className="home-vimeo-container">
                 {light && 
                 <div className="video-preload" onClick={()=>{setLight(false)}}>
-                    <span class="playButton">►</span>
-                    <img className="home-light-photo" src={imgURL}/>
+                    <span className="playButton">►</span>
+                    <img className="home-light-photo" src={imgURL} alt="video thumbnail"/>
                 </div>}
                 {video(!light, videoURL)}
             </div>
