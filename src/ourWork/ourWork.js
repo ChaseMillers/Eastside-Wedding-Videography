@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import Layout from "../Layout/Layout"
-import ReactPlayer from 'react-player'
 import "./ourWork.css"
 import Testimonials from "../testimonials/Testimonials"
 import VideoPlayer from "../videoPlayer/VideoPlayer"
@@ -18,6 +17,7 @@ const OurWork = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
+        
     }, [])
 
     return (
