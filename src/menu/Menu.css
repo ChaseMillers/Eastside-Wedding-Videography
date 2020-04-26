@@ -21,23 +21,6 @@ a.nav-link:hover {
 a.nav-link:hover {
   color: black;
 }
-/* Hamburger Nav */
-.eJApds{
-  width: 30px !important;
-  height: 3px !important;
-}
-.eJApds::before, .eJApds::after {
-  width: 30px !important;
-  height: 3px !important;
-}
-.eFudgO {
-  width: 30px !important;
-  height: 3px !important;
-}
-.eFudgO::before, .eFudgO::after {
-  width: 30px !important;
-  height: 3px !important;
-}
 
 .header ul {
   margin: 0;
@@ -66,6 +49,7 @@ a.nav-link:hover {
 
 li.nav-item {
   line-height: 30px;
+  margin-top: 5px;
   cursor: pointer;
 }
 
