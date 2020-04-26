@@ -35,7 +35,7 @@ const Home = () => {
                 <section>
                     {videoContactBtn()}
                     <ReactPlayer
-                    url="/videos/demoC.mp4"
+                    url="/videos/demoSC.mp4"
                     className='react-player'
                     playing
                     preload="true"
