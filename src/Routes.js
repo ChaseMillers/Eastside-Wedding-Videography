@@ -5,14 +5,13 @@ import Home from "./home/Home"
 import Packages from "./packages/Packages"
 import Contacts from "./contact/Contact"
 import ReactGA from 'react-ga'
-import createHistory from 'history/createBrowserHistory'
-
+import History from "./history";
 
 const Routes = () => {
     const {
         ContactPage
     } = Contacts();
-    const history = createHistory()
+    const history = History
     history.listen(location => {
         ReactGA.set({ page: location.pathname });
         ReactGA.pageview(location.pathname);

@@ -8,6 +8,7 @@ const VideoPlayer = () => {
                 src={videoURL} 
                 frameborder="0" 
                 allow="autoplay; fullscreen" 
+                title="wedding highlight video"
                 allowfullscreen>
             </iframe>
     );
