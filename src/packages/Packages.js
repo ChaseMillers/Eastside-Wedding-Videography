@@ -14,7 +14,7 @@ const Packages = () =>{
             <h2 className="every-package">Every package includes:</h2>
             <ul>
                 <li>Consultation before the wedding.</li>
-                <li>Full day of filming.</li>
+                <li>Full day of filming from multiple camera angles. Including Ceremony and Reception events.</li>
                 <li>Cinematic highlight film.</li>
                 <li>3 DVD Copies, USB Copy and Digital download.</li>
                 <li>Your video, hosted online to share your special day.</li>
@@ -27,6 +27,8 @@ const Packages = () =>{
                     </Link>
                     <span className="bonus">(5-7 minutes Long)</span>
                     <p className="line-height">Full day of coverage.</p>
+                    <p className="line-height">Multiple camera angles.</p>
+                    <p className="line-height">Ceremony and Reception events.</p>
                     <p className="line-height">3 DVDs, USB and digital copy.</p>
                     <p className="starting-at">Starting at</p>
                     <h3>$800</h3>
@@ -39,6 +41,8 @@ const Packages = () =>{
                     </Link>
                     <span className="bonus">(7-10 minutes Long)</span>
                     <p className="line-height">Full day of coverage.</p>
+                    <p className="line-height">Multiple camera angles.</p>
+                    <p className="line-height">Ceremony and Reception events.</p>
                     <p className="line-height">3 DVDs, USB and digital copy.</p>
                     <p className="starting-at">Starting at</p>
                     <h3>$1000</h3>
@@ -47,10 +51,12 @@ const Packages = () =>{
                 <div className="package 2">
                     <h2>Deluxe Package</h2>
                     <Link to="/ourWork">
-                        <p className="title-bonus">Cinematic Highlight Film.</p>
+                        <p className="title-bonus">Documentary Film.</p>
                         </Link>
                         <span className="bonus">(25-30 minutes Long)</span>
                         <p className="line-height">Full day of coverage.</p>
+                        <p className="line-height">Multiple camera angles.</p>
+                        <p className="line-height">Ceremony and Reception events.</p>
                         <p className="line-height">3 DVDs, USB and digital copy.</p>
                     <p className="starting-at">Starting at</p>
                     <h3>$1500</h3>
