@@ -26,7 +26,7 @@
 }
 /* on home-link hover, effect only img-holder */
 .home-link:hover .button-work img{
- opacity: 70%;
+ opacity: 0.5;
 }
 
 img{
