@@ -6,6 +6,7 @@ import VideoPlayer from "../videoPlayer/VideoPlayer"
 
 const OurWork = () => {
     const {
+        quoteJacobAndrea,
         quoteAdamClara,
         quoteNateAcacia,
         quoteAustinSarah
@@ -26,6 +27,12 @@ const OurWork = () => {
                     <h2 className="title">Cinematic Highlight Films</h2>
 
                     <div className="portfolio">
+
+                        <OurWorkVideo
+                            imgURL="https://imgur.com/O6zPhlo.jpg"
+                            videoURL="https://player.vimeo.com/video/448812775?autoplay=1"
+                        />
+                        {quoteJacobAndrea()}
 
                         <OurWorkVideo 
                         imgURL="https://i.imgur.com/0XJfFmm.jpg"
