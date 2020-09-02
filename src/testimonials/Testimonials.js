@@ -30,7 +30,21 @@ const Testimonials = () =>{
         </div>
     )
 
-    const quoteAdamClara = () =>(
+    const quoteJacobAndrea = () => (
+        <div className="quote-container">
+            <h1 className="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
+            <div className="quote">
+                <p>
+                    "Absolutely fantastic job! The time and effort clearly shows and the amount 
+                    of detail to make our day as special as possible was unprecedented! Thanks for 
+                    all the hard work! We love it!"
+                </p>
+                <p className="quoter">- Jacob & Andrea </p>
+            </div>
+        </div>
+    )
+
+    const quoteAdamClara = () => (
         <div className="quote-container">
             <h1 className="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
             <div className="quote">
@@ -85,6 +99,7 @@ const Testimonials = () =>{
     return{
         quoteOne,
         quoteTwo,
+        quoteJacobAndrea,
         quoteAdamClara,
         quoteNateAcacia,
         quoteAustinSarah
