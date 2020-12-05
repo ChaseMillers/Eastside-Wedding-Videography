@@ -5,7 +5,7 @@ const VideoPlayer = () => {
     const video = (light, videoURL) =>(
         light && 
             <iframe 
-                src={videoURL} 
+                src="https://drive.google.com/file/d/1zG-g9pZq5WX_j1T1edgr4S7jo01AkLID/preview" 
                 frameborder="0" 
                 allow="autoplay; fullscreen" 
                 title="wedding highlight video"
