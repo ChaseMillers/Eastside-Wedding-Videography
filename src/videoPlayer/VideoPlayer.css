@@ -9,6 +9,7 @@
     display: inline-block;
     position: relative;
     object-fit: cover;
+    cursor: pointer;
 }
 .playButton{
     position: absolute;
@@ -42,6 +43,7 @@
     margin: 0 auto;
 }
 .home-light-photo{
+    cursor: pointer;
     height: 155px;
     max-width: 760px;
     display: inline-block;
