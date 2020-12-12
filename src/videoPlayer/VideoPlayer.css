@@ -15,6 +15,7 @@
     position: absolute;
     color: white;
     z-index: 1;
+    cursor: pointer;
     font-size: 40px;
     text-shadow: rgb(0, 0, 0) 1px 0 10px;
 }
