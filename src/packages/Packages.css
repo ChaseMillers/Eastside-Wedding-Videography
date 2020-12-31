@@ -1,7 +1,8 @@
-.packages-container{
+.packages-container {
     margin-top: 90px;
 }
-.packages{
+
+.packages {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,58 +10,92 @@
     margin: 0 auto;
     padding: 0 30px;
 }
-.packages-container h1{
+
+.packages-container h1 {
     text-align: center;
     font-weight: 500;
 }
-.packages h2{
+
+.packages h2 {
     text-align: center;
     font-weight: 600;
     font-size: 20px;
     margin: 10px;
     padding-bottom: 30px;
 }
-.packages-container ul{
+
+.packages-container ul {
     max-width: 500px;
     padding: 10px 10px 20px 50px;
     margin: 0 auto 10px auto;
 }
-.every-package{
+
+.every-package {
     text-align: center;
     margin: 30px 0 5px 0;
     font-weight: 600;
 }
 
 /* Package BOX */
-.packages h3{
+.packages h3 {
     text-align: center;
     font-weight: 500;
     font-size: 20px;
     margin: 10px;
     color: grey;
 }
-.package{
+
+.package {
     margin-bottom: 10px;
     border: 1px solid black;
     width: 100%;
     text-align: center;
+    background-color: #f1efee;
 }
 
-.title-bonus{
+.packages-btn {
+    color: black;
+    padding: 10px 25px;
+    font-size: 20px;
+    border: solid 2px rgb(0 0 0);
+    display: inline-block;
+    width: 170px;
+    height: 50px;
+}
+.package-btn-container {
+    text-align: center;
+    margin: 35px;
+    position: relative;
+}
+.packages-btn:hover {
+    box-shadow: 8px 8px #efefef;
+    color: black;
+    font-size: 22px;
+    padding: 10px 25px;
+    max-width: 170px;
+    max-height: 50px;
+}
+
+.title-bonus {
     margin: 0;
     padding: 0;
 }
-.bonus{
+
+.contact-Btn-package {
+    display: flex;
+}
+.bonus {
     font-weight: bold;
     padding: 0 0 5px 0;
     margin: 0;
 }
-.starting-at{
+
+.starting-at {
     padding-top: 30px;
 }
 
 /**** UPGRADES OPTIONS ****/
-.add-ons{
+.add-ons {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,7 +103,8 @@
     margin: 0 auto;
     padding: 0 30px;
 }
-.add-on{
+
+.add-on {
     margin-bottom: 10px;
     padding-bottom: 20px;
     border: 1px solid black;
@@ -79,33 +115,36 @@
     align-items: center;
 }
 
-/* Add on price */
-.add-on h3{
+    /* Add on price */
+    .add-on h3 {
+        text-align: center;
+        font-weight: 500;
+        font-size: 18px;
+        margin: 0;
+        color: grey;
+    }
+
+    .add-on p {
+        margin: 0px;
+        padding: 5px;
+    }
+
+.add-ons-title {
     text-align: center;
     font-weight: 500;
-    font-size: 18px;
-    margin: 0;
-    color: grey;
 }
-.add-on p {
-    margin: 0px;
-    padding: 5px;
-}
-.add-ons-title{
-    text-align: center;
-    font-weight: 500;
-}
-.buttoninContainer{
+
+.buttoninContainer {
     display: flex;
 }
 
-@media (min-width: 700px){
-    .packages{
+@media (min-width: 700px) {
+    .packages {
         flex-direction: row;
         max-width: 800px;
     }
-    .package{
+
+    .package {
         margin: 0 5px 10px 5px;
     }
-    
 }
