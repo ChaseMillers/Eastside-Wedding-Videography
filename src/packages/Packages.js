@@ -6,7 +6,8 @@ const Packages = () =>{
 
     useEffect(() => {
         window.scrollTo(0, 0)
-      }, [])
+    }, [])
+
     return(
     <Layout>
         <div className="packages-container">
@@ -61,7 +62,18 @@ const Packages = () =>{
                     <p className="starting-at">Starting at</p>
                     <h3>$1500</h3>
                 </div>
-            </div>
+                </div>
+               
+                <div className="package-btn-container">
+                    <Link
+                        className="packages-btn"
+                        spy={true}
+                        smooth={true}
+                        offset={-75}
+                        to="/contact">
+                        Contact Us
+                    </Link>
+                </div>
 
             <h1 className="add-ons-title">Upgrade Options</h1>
             <div className="add-ons">
