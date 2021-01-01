@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Layout from "../Layout/Layout"
 import { Link } from "react-router-dom";
 import "./Packages.css"
+import FadeIn from 'react-fade-in';
 const Packages = () =>{
 
     useEffect(() => {
@@ -9,8 +10,9 @@ const Packages = () =>{
     }, [])
 
     return(
-    <Layout>
-        <div className="packages-container">
+        <Layout>
+            <FadeIn>
+            <div className="packages-container">
             <h1>Packages</h1>
             <h2 className="every-package">Every package includes:</h2>
             <ul>
@@ -104,7 +106,8 @@ const Packages = () =>{
                     <h3>$500</h3>
                 </div>
                 </div>
-            </div>
+                </div>
+            </FadeIn>
         </Layout>)
 }
 export default Packages
