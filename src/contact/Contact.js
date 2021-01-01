@@ -2,6 +2,7 @@ import React, { useState, useEffect, Fragment } from 'react';
 import { API } from "../config"
 import "./Contact.css" 
 import Layout from "../Layout/Layout"
+import FadeIn from 'react-fade-in';
 
 const Contacts = () =>{
 
@@ -140,11 +141,13 @@ const Contact = () => {
 }
 
 const ContactPage = () =>(
-  <Layout>
-    <div className="contact-container">
-      <h1>Contact</h1>
-      {Contact()}
-    </div>
+    <Layout>
+        <FadeIn>
+            <div className="contact-container">
+            <h1>Contact</h1>
+            {Contact()}
+            </div>
+        </FadeIn>
   </Layout>
 );
 
