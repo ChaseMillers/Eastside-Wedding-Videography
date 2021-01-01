@@ -34,3 +34,9 @@
     background-color:rgb(230, 230, 230);
     padding-bottom: 30px;
 }
+
+@media (min-width: 540px){
+    .profile{
+        padding-top:20px;
+    }
+}
