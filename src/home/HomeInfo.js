@@ -2,6 +2,7 @@ import React, { useEffect, Suspense, lazy } from "react";
 import "./Home.css"
 import Testimonials from "../testimonials/Testimonials"
 import Contacts from "../contact/Contact"
+import FadeIn from 'react-fade-in';
 import { Link } from "react-router-dom";
 import VideoPlayer from "../videoPlayer/VideoPlayer"
 const Profile = lazy(() =>
@@ -23,9 +24,10 @@ const HomeInfo = () => {
         window.scrollTo(0, 0)
     }, [])
 
-    return(
-            <div className="home-info-container">
-                <section>
+    return (
+        <FadeIn>
+        <div className="home-info-container">
+            <section className="caption-one">
                     <div className="message">
                         <h1>HELPING YOU REMEMBER EVERY MOMENT.</h1>
                         <p> 
@@ -76,6 +78,7 @@ const HomeInfo = () => {
                     {Contact()}
                 </Suspense>
             </div>
+            </FadeIn>
     )
 }
 
