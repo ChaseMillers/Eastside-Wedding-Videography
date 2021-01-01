@@ -3,6 +3,7 @@ import Layout from "../Layout/Layout"
 import "./ourWork.css"
 import Testimonials from "../testimonials/Testimonials"
 import VideoPlayer from "../videoPlayer/VideoPlayer"
+import FadeIn from 'react-fade-in';
 
 const OurWork = () => {
     const {
@@ -20,7 +21,8 @@ const OurWork = () => {
     }, [])
 
     return (
-        <Layout> 
+        <Layout>
+            <FadeIn>
             <div className="portfolio-container" >
                     <h1 className="title">Our Work</h1>
                 <section>
@@ -72,7 +74,8 @@ const OurWork = () => {
                             
                         </div>
                 </section>
-        </div>
+                </div>
+            </FadeIn>
         </Layout>
     );
 };
