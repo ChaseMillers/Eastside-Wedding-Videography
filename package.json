@@ -20,6 +20,7 @@
     "react": "^16.8.6",
     "react-animated-burgers": "^1.2.7",
     "react-dom": "^16.8.6",
+    "react-fade-in": "^1.1.1",
     "react-ga": "^2.7.0",
     "react-native": "^0.61.5",
     "react-player": "^1.15.2",
