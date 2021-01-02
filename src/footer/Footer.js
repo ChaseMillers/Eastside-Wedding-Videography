@@ -23,7 +23,7 @@ const Footer = () => (
               </ul>
             </div>
 
-        © 2020 Eastside Wedding Videography. All Rights Reserved.
+        © 2021 Eastside Wedding Videography. All Rights Reserved.
     </div>
 )
 
