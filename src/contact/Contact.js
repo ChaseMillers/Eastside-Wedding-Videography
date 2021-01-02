@@ -120,17 +120,9 @@ const Contact = () => {
   );
     return (
       <Fragment>
-        <div className="comp-info" id="contact-anchor">
-          <a href="tel:+4252138204" rel="noopener noreferrer">
-            (425) 213-8204</a>
-          <br/>
-          <a href="mailto:eastsideweddingvideo@gmail.com" 
-          rel="noopener noreferrer"
-          target="_blank">eastsideweddingvideo@gmail.com</a>
-        </div>
           <h3 className="contact-header">
             Questions? <br/> 
-            Want to Reserve a date? <br/>
+            Want to reserve a date? <br/>
             Contact Us! <br/>
           </h3>
         {form(data.showForm)}
@@ -144,8 +136,18 @@ const ContactPage = () =>(
     <Layout>
         <FadeIn>
             <div className="contact-container">
-            <h1>Contact</h1>
-            {Contact()}
+                <h1>Contact</h1>
+                <div className="contact-Letter">
+                    {Contact()}
+                </div>
+                <div className="comp-info" id="contact-anchor">
+                    <a href="tel:+4252138204" rel="noopener noreferrer">
+                        (425) 213-8204</a>
+                    <br />
+                    <a href="mailto:eastsideweddingvideo@gmail.com"
+                        rel="noopener noreferrer"
+                        target="_blank">eastsideweddingvideo@gmail.com</a>
+                </div>
             </div>
         </FadeIn>
   </Layout>
