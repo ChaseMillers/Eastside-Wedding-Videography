@@ -10,8 +10,8 @@ form {
 
 .contact-Letter {
     background: white;
-    width: 400px;
-    margin: 0 auto;
+    max-width: 400px;
+    margin: 0 20px;
     border: solid 2px;
     padding: 20px;
 }
@@ -63,6 +63,9 @@ a{
 }
 .contact-container {
     margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: linear-gradient(0deg,#fff,#dec3a1 14%,#fffbea 79%,#fff);
 }
 .contact-container h1{
