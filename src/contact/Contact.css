@@ -63,7 +63,7 @@ a{
 }
 .contact-container {
     margin-top: 90px;
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,226,221,1) 14%, rgba(255,251,234,1) 79%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg,#fff,#dec3a1 14%,#fffbea 79%,#fff);
 }
 .contact-container h1{
     text-align: center;
