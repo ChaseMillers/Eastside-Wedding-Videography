@@ -23,7 +23,7 @@ const Packages = () =>{
                 <li>Your video, hosted online to share your special day.</li>
             </ul>
             <div className="packages">
-                <div className="package 1">
+                <div className="package one">
                     <h2>Basic Package</h2>
                     <Link to="/ourWork">
                     <p className="title-bonus">Cinematic Highlight Film.</p>
@@ -37,7 +37,7 @@ const Packages = () =>{
                     <h3>$800</h3>
                 </div>
 
-                <div className="package 2">
+                <div className="package two">
                     <h2>Standard Package</h2>
                     <Link to="/ourWork">
                     <p className="title-bonus">Cinematic Highlight Film.</p>
@@ -51,7 +51,7 @@ const Packages = () =>{
                     <h3>$1000</h3>
                 </div>
 
-                <div className="package 2">
+                <div className="package three">
                     <h2>Deluxe Package</h2>
                     <Link to="/ourWork">
                         <p className="title-bonus">Documentary Film.</p>
@@ -76,7 +76,8 @@ const Packages = () =>{
                         Contact Us
                     </Link>
                 </div>
-
+                    <section className="upgrades">
+ 
             <h1 className="add-ons-title">Upgrade Options</h1>
             <div className="add-ons">
                 <div className="add-on 1">
@@ -105,7 +106,8 @@ const Packages = () =>{
                     Cinematic Highlight Film.</p>
                     <h3>$500</h3>
                 </div>
-                </div>
+            </div>
+            </section>
                 </div>
             </FadeIn>
         </Layout>)
