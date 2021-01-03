@@ -22,9 +22,22 @@ const Packages = () =>{
                 <li>3 DVD Copies, USB Copy and Digital download.</li>
                 <li>Your video, hosted online to share your special day.</li>
             </ul>
-            <div className="packages">
-                <div className="package one">
-                    <h2>Basic Package</h2>
+                    <div className="packages">
+
+                        <div className="package one">
+                            <h2>Elopement Package</h2>
+             
+                            <span className="bonus">(3-5 minutes Long)</span>
+                            <p className="line-height">Full ceremony.</p>
+                            <p className="line-height">Multiple camera angles.</p>
+                            <p className="line-height">Ceremony</p>
+                            <p className="line-height">3 DVDs, USB and digital copy.</p>
+                            <p className="starting-at">Starting at</p>
+                            <h3>$1000</h3>
+                        </div>
+
+                    <div className="package two">
+                    <h2>Standard Package</h2>
                     <Link to="/ourWork">
                     <p className="title-bonus">Cinematic Highlight Film.</p>
                     </Link>
@@ -34,21 +47,7 @@ const Packages = () =>{
                     <p className="line-height">Ceremony and Reception events.</p>
                     <p className="line-height">3 DVDs, USB and digital copy.</p>
                     <p className="starting-at">Starting at</p>
-                    <h3>$800</h3>
-                </div>
-
-                <div className="package two">
-                    <h2>Standard Package</h2>
-                    <Link to="/ourWork">
-                    <p className="title-bonus">Cinematic Highlight Film.</p>
-                    </Link>
-                    <span className="bonus">(7-10 minutes Long)</span>
-                    <p className="line-height">Full day of coverage.</p>
-                    <p className="line-height">Multiple camera angles.</p>
-                    <p className="line-height">Ceremony and Reception events.</p>
-                    <p className="line-height">3 DVDs, USB and digital copy.</p>
-                    <p className="starting-at">Starting at</p>
-                    <h3>$1000</h3>
+                    <h3>$1500</h3>
                 </div>
 
                 <div className="package three">
@@ -62,7 +61,7 @@ const Packages = () =>{
                         <p className="line-height">Ceremony and Reception events.</p>
                         <p className="line-height">3 DVDs, USB and digital copy.</p>
                     <p className="starting-at">Starting at</p>
-                    <h3>$1500</h3>
+                    <h3>$2500</h3>
                 </div>
                 </div>
                
@@ -80,7 +79,12 @@ const Packages = () =>{
  
             <h1 className="add-ons-title">Upgrade Options</h1>
             <div className="add-ons">
-                <div className="add-on 1">
+                            <div className="add-on zero">
+                                <h2 className="every-package">Extra Minutes</h2>
+                                <p>Extra minutes you can purchase for any video.</p>
+                                <h3>$100 Per Minute</h3>
+                            </div>
+                            <div className="add-on 1">
                     <h2 className="every-package">Social Media Trailer</h2>
                     <p>A 60 second highlight trailer of your Wedding Day, 
                     perfect for sharing on Social Media.</p>
