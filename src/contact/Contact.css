@@ -8,6 +8,8 @@ form {
     font-size: 20px;
 }
 
+
+
 .contact-Letter {
     background: white;
     max-width: 400px;
@@ -71,4 +73,14 @@ a{
 .contact-container h1{
     text-align: center;
     font-weight: 500;
+}
+
+.contact-input {
+    max-width: 100%;
+    text-align-last: center;
+    min-height: 25px;
+}
+option {
+    width: 100%;
+    text-align-last: center;
 }
