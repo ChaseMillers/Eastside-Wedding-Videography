@@ -26,14 +26,18 @@ const Packages = () =>{
 
                         <div className="package one">
                             <h2>Elopement Package</h2>
-             
+
+                            <div className="contents">
                             <span className="bonus">(3-5 minutes Long)</span>
                             <p className="line-height">Full ceremony.</p>
                             <p className="line-height">Multiple camera angles.</p>
                             <p className="line-height">Ceremony</p>
                             <p className="line-height">3 DVDs, USB and digital copy.</p>
-                            <p className="starting-at">Starting at</p>
-                            <h3>$1000</h3>
+                            </div>
+                                <div className="starting-at">
+                            <p>Starting at</p>
+                                <h3>$1000</h3>
+                            </div>
                         </div>
 
                     <div className="package two">
@@ -68,7 +72,6 @@ const Packages = () =>{
                 <div className="package-btn-container">
                     <Link
                         className="packages-btn"
-                        offset={-75}
                         to="/contact">
                         Contact Us
                     </Link>
@@ -82,26 +85,26 @@ const Packages = () =>{
                                 <p>Extra minutes you can purchase for any video.</p>
                                 <h3>$100 Per Minute</h3>
                             </div>
-                            <div className="add-on 1">
+                            <div className="add-on one">
                     <h2 className="every-package">Social Media Trailer</h2>
                     <p>A 60 second highlight trailer of your Wedding Day, 
                     perfect for sharing on Social Media.</p>
                     <h3>$200</h3>
                 </div>
-                <div className="add-on 2">
+                <div className="add-on two">
                     <h2 className="every-package">Rehersal Dinner</h2>
                     <p>Coverage at your pre-wedding dinner, ensures that speeches, toasts, 
                     and memories that happen before your wedding day will be remembered forever.</p>
                     <h3>$300</h3>
                 </div>
-                <div className="add-on 3">
+                <div className="add-on three">
                     <h2 className="every-package">Love Story</h2>
                     <p>Edit includes 1 interview session where you tell your love story to the camera, 
                     and a couples session to capture supplemental footage for the edit. 
                     Ideal for playing at your Pre-Wedding Dinner. </p>
                     <h3>$300</h3>
                 </div>
-                <div className="add-on 4">
+                <div className="add-on four">
                     <h2 className="every-package">Home Video Edit</h2>
                     <p> An un edited montage of ALL of the footage we shot from 
                     the entire day. This all delivered separately from your 
