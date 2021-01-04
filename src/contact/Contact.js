@@ -90,14 +90,13 @@ const Contacts = () => {
                     value={phone}
                     onChange={handleChange("phone")}
                 />
-                <label htmlFor="how">How did you hear about us?<span className="optional">*</span></label>
+                <label htmlFor="how">How did you hear about us?</label>
                 <input
                     className="contact-input"
                     type="text"
                     value={how}
                     name="how"
                     onChange={handleChange("how")}
-                    required
                 />
                 <label htmlFor="location">Venue/Locations<span className="optional">*</span></label>
                 <input
