@@ -37,7 +37,7 @@ const HomeInfo = () => {
                     </div>
                     {quoteTwo()}
                 </section>
-
+                <FadeIn>
                 <section >
                     <HomeVideo 
                         imgURL="https://i.imgur.com/XMDvwwW.jpg"
@@ -65,7 +65,8 @@ const HomeInfo = () => {
                             </div>
                         </Link>
                     </div>
-                </section>
+                    </section>
+                    </FadeIn>
                 <Suspense fallback={<div>Loading...</div>}>
                     <Profile />
                     {quoteOne()}
@@ -75,6 +76,7 @@ const HomeInfo = () => {
                             alt="flower girls walking down aisle"
                         />
                     </div>
+                    <div id="contact-anchor"></div>
                     {Contact()}
                 </Suspense>
             </div>
