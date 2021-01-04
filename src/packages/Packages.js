@@ -68,8 +68,6 @@ const Packages = () =>{
                 <div className="package-btn-container">
                     <Link
                         className="packages-btn"
-                        spy={true}
-                        smooth={true}
                         offset={-75}
                         to="/contact">
                         Contact Us
