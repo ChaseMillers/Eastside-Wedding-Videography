@@ -129,7 +129,7 @@ const Contacts = () => {
                     onChange={handleChange("message")}
                 />
                 
-                <button type="submit">Submit</button>
+                <button type="submit">Send</button>
             </form>
         );
         return (
