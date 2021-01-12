@@ -40,8 +40,8 @@ const HomeInfo = () => {
                 <FadeIn>
                 <section >
                     <HomeVideo 
-                        imgURL="https://i.imgur.com/XMDvwwW.jpg"
-                        videoURL="https://player.vimeo.com/video/381476056?autoplay=1"
+                            imgURL="https://imgur.com/O6zPhlo.jpg"
+                            videoURL="https://player.vimeo.com/video/448812775?autoplay=1"
                     />
                      
                     <div className="our-work">
