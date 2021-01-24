@@ -14,6 +14,12 @@ const Packages = () =>{
             <FadeIn>
             <div className="packages-container">
             <h1>Packages</h1>
+            <div className="img-banner">
+                        <img
+                            src="https://i.imgur.com/1r8eH1w.jpg"
+                            alt="bride looking down smileing"
+                        />
+                    </div>
             <h2 className="every-package">Every package includes:</h2>
             <ul>
                 <li>Consultation before the wedding.</li>
