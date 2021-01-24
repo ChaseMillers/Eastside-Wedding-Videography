@@ -17,7 +17,7 @@ const Packages = () =>{
             <div className="img-banner">
                         <img
                             src="https://i.imgur.com/1r8eH1w.jpg"
-                            alt="bride looking down smileing"
+                            alt="bride looking down smiling"
                         />
                     </div>
             <h2 className="every-package">Every package includes:</h2>
