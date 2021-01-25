@@ -12,10 +12,11 @@ const Packages = () =>{
     return(
         <Layout>
             <FadeIn>
-            <div className="packages-container">
-            <h1>Packages</h1>
-            <div className="img-banner">
+                <div className="packages-container">
+                    <h1>Packages</h1>
+                    <div className="img-banner">
                         <img
+                            className="sofias-pic"
                             src="https://i.imgur.com/1r8eH1w.jpg"
                             alt="bride looking down smiling"
                         />
