@@ -65,6 +65,15 @@ img{
     margin: 20px 0 0 0;
 }
 
+.home-demo {
+    overflow: hidden;
+    max-height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
 @media (min-width: 450px){
     .our-work{
         display: flex;
