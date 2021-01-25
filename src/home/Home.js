@@ -14,7 +14,9 @@ const Home = () => {
     return(
         <Layout>
             <div className="home-container">
-            {videoContactBtn()}
+
+                <div className="home-demo">
+                {videoContactBtn()}
                     <ReactPlayer
                     url="/videos/demoSC.mp4"
                     className='react-player'
@@ -25,6 +27,7 @@ const Home = () => {
                     width='100%'
                     height='100%'
                     />
+                </div>
             <Suspense fallback={<div></div>}>
                 <HomeInfo />
             </Suspense>
