@@ -6,8 +6,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 400px;
     min-width: 211px;
+    max-width: 400px;
     margin: 0 auto;
     padding: 0 30px;
 }
@@ -40,7 +40,7 @@
 
 .packages-container ul {
     max-width: 500px;
-    padding: 10px 10px 20px 50px;
+    padding: 10px 20px 20px 50px;
     margin: 0 auto 10px auto;
 }
 
@@ -163,6 +163,19 @@
 
 .buttoninContainer {
     display: flex;
+}
+
+
+.sofias-pic {
+    width: 100%;
+    min-width: 700px;
+    height: 100%;
+}
+.img-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
 }
 
 @media (min-width: 726px) {
