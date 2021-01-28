@@ -1,39 +1,105 @@
-import React, { Suspense, lazy } from "react";
-import "./Home.css"
-import Buttons from '../buttons/Buttons'
-import ReactPlayer from 'react-player'
-import Layout from "../Layout/Layout"
-const HomeInfo = lazy(() =>
-    import("./HomeInfo")
-);
 
-const Home = () => {
-    const {
-        videoContactBtn
-    } = Buttons();
-    return(
-        <Layout>
-            <div className="home-container">
-
-                <div className="home-demo">
-                {videoContactBtn()}
-                    <ReactPlayer
-                    url="/videos/demoSC.mp4"
-                    className='react-player'
-                    playing
-                    preload="true"
-                    muted
-                    loop
-                    width='100%'
-                    height='100%'
-                    />
-                </div>
-            <Suspense fallback={<div></div>}>
-                <HomeInfo />
-            </Suspense>
-            </div>
-        </Layout>
-    )
+.home-container {
+    margin-top: -50px;
+}
+.home-info-container{
+    margin-top: 30px;
+}
+.message {
+    margin: 10px auto 0 auto;
+    max-width: 500px;
+    text-align: center;
+}
+.message h1{
+  font-size: 23px;
+}
+.message p{
+    color: #8a8a8a;
+    padding: 0 10px;
+    margin: 0 auto;
+    font-size: 17px;
 }
 
-export default Home
+.img-holder{
+    max-width: 500px;
+    margin: 0 20px;
+}
+/* on home-link hover, effect only img-holder */
+.home-link:hover .button-work img{
+ opacity: 0.5;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.our-work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-work h2{
+    text-align: center;
+    position: absolute;
+    font-weight: 500;
+    height: 100px;
+    color: white;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    z-index: 1;
+    font-size: 40px;
+}
+
+.stars{
+    margin: 10px 0 0 0;
+}
+.button-work{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    max-height: 150px;
+    overflow: hidden;
+    margin: 20px 0 0 0;
+}
+
+@media (min-width: 650px) {
+
+    .home-demo {
+        overflow: hidden;
+        max-height: 550px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .home-container {
+        margin-top: -5px;
+    }
+}
+
+    @media (min-width: 450px) {
+
+        .our-work {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .img-holder {
+            margin: 0;
+        }
+
+        .img-holder {
+            max-width: 370px;
+        }
+
+        .button-work.one {
+            margin: 20px 10px 20px 20px;
+        }
+
+        .button-work.two {
+            margin: 20px 20px 20px 10px;
+        }
+    }
