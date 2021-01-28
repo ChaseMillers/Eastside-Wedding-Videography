@@ -1,6 +1,5 @@
 .sticky-wrapper {
     position: relative;
-    height: 0px; /* change this value based on surrounding components*/
   }
   
   .sticky .sticky-inner {
