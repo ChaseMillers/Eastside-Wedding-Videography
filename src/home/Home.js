@@ -18,7 +18,7 @@ const Home = () => {
                 <div className="home-demo">
                 {videoContactBtn()}
                     <ReactPlayer
-                    url="/videos/demoSC.mov"
+                    url="/videos/demoSC.mp4"
                     className='react-player'
                     playing
                     preload="true"
