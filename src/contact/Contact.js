@@ -6,7 +6,7 @@ import emailjs from 'emailjs-com';
 
 const Contacts = () => {
 
-    const Contact = () => {
+    const Contact = (props) => {
         useEffect(() => {
             window.scrollTo(0, 0)
         }, [])
@@ -21,7 +21,7 @@ const Contacts = () => {
             location: '',
             message: '',
             phone: '',
-            pack: ''
+            pack: props && props.location.state && props.location.state.hasOwnProperty('package') ? props.location.state.package :''
         });
         let {
             name = data.name,
@@ -146,7 +146,7 @@ const Contacts = () => {
         );
     }
 
-    const ContactPage = () => (
+    const ContactPage = (props) => (
         <Layout>
             <FadeIn>
                 <div className="contact-container">
@@ -158,7 +158,7 @@ const Contacts = () => {
                     </div>
                     <h1>Contact</h1>
                     <div className="contact-Letter">
-                        {Contact()}
+                        {Contact(props)}
                     </div>
                     <div className="comp-info">
                         <a href="tel:+4252138204" rel="noopener noreferrer">

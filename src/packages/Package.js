@@ -25,7 +25,10 @@ const Package = () =>{
                 />
                 <Link
                     className="package-btn"
-                    to="/contact">
+                    to={{
+                        pathname: '/contact',
+                        state: { package: 'Silver Package' }
+                    }}>
                     SELECT
                             </Link>
             </div>
@@ -38,7 +41,10 @@ const Package = () =>{
                 />
                 <Link
                     className="package-btn"
-                    to="/contact">
+                    to={{
+                        pathname: '/contact',
+                        state: { package: 'Gold Package' }
+                    }}>
                     SELECT
                             </Link>
             </div>
@@ -51,7 +57,10 @@ const Package = () =>{
                 />
                 <Link
                     className="package-btn"
-                    to="/contact">
+                    to={{
+                        pathname: '/contact',
+                        state: { package: 'Platinum Package' }
+                    }}>
                     SELECT
                             </Link>
             </div>
