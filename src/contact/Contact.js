@@ -1,12 +1,12 @@
 import React, { useState, useEffect, Fragment } from 'react';
-import "./Contact.css" 
+import "./Contact.css"
 import Layout from "../Layout/Layout"
 import FadeIn from 'react-fade-in';
 import emailjs from 'emailjs-com';
 
 const Contacts = () => {
 
-    const Contact = () => {
+    const Contact = (props) => {
         useEffect(() => {
             window.scrollTo(0, 0)
         }, [])
@@ -21,7 +21,7 @@ const Contacts = () => {
             location: '',
             message: '',
             phone: '',
-            pack: ''
+            pack: props && props.location.state && props.location.state.hasOwnProperty('package') ? props.location.state.package : ''
         });
         let {
             name = data.name,
@@ -36,7 +36,7 @@ const Contacts = () => {
         const handleChange = name => event => {
             setData({ ...data, [name]: event.target.value });
         };
-       
+
         const handleSubmit = e => {
             e.preventDefault();
             setData({ loading: true });
@@ -108,18 +108,18 @@ const Contacts = () => {
                     required
                 />
                 <label htmlFor="how">Which Package?<span className="optional">*</span></label>
-                       <select
-                        name="pack"
-                        className="contact-input package"
-                        onChange={handleChange("pack")}
-                        value={pack}
-                        required>
-                        <option value="" style={{ display: "none" }}> -- Select an option -- </option>
+                <select
+                    name="pack"
+                    className="contact-input package"
+                    onChange={handleChange("pack")}
+                    value={pack}
+                    required>
+                    <option value="" style={{ display: "none" }}> -- Select an option -- </option>
                     <option value="Gold Package">Gold Package</option>
                     <option value="Platinum Package">Platinum Package</option>
                     <option value="Silver Package">Silver Package</option>
-                    </select>
-                
+                </select>
+
                 <label htmlFor="message">Tell us about your event </label>
                 <textarea
                     className="contact-input tell-us"
@@ -128,7 +128,7 @@ const Contacts = () => {
                     value={message}
                     onChange={handleChange("message")}
                 />
-                
+
                 <button type="submit">Send</button>
             </form>
         );
@@ -146,7 +146,7 @@ const Contacts = () => {
         );
     }
 
-    const ContactPage = () => (
+    const ContactPage = (props) => (
         <Layout>
             <FadeIn>
                 <div className="contact-container">
@@ -158,7 +158,7 @@ const Contacts = () => {
                     </div>
                     <h1>Contact</h1>
                     <div className="contact-Letter">
-                        {Contact()}
+                        {Contact(props)}
                     </div>
                     <div className="comp-info">
                         <a href="tel:+4252138204" rel="noopener noreferrer">
