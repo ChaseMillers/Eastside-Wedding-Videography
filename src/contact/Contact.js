@@ -17,7 +17,6 @@ const Contacts = () => {
             showForm: true,
             name: '',
             email: '',
-            how: '',
             location: '',
             message: '',
             phone: '',
@@ -26,7 +25,6 @@ const Contacts = () => {
         let {
             name = data.name,
             email = data.email,
-            how = data.how,
             location = data.location,
             message = data.message,
             phone = data.phone,
@@ -90,14 +88,7 @@ const Contacts = () => {
                     value={phone}
                     onChange={handleChange("phone")}
                 />
-                <label htmlFor="how">How did you hear about us?</label>
-                <input
-                    className="contact-input"
-                    type="text"
-                    value={how}
-                    name="how"
-                    onChange={handleChange("how")}
-                />
+              
                 <label htmlFor="location">Venue/Locations<span className="optional">*</span></label>
                 <input
                     className="contact-input"
