@@ -115,9 +115,9 @@ const Contacts = () => {
                         value={pack}
                         required>
                         <option value="" style={{ display: "none" }}> -- Select an option -- </option>
-                        <option value="Standard Package">Standard Package</option>
-                        <option value="Deluxe Package">Deluxe Package</option>
-                        <option value="Elopement Package">Elopement Package</option>
+                    <option value="Gold Package">Gold Package</option>
+                    <option value="Platinum Package">Platinum Package</option>
+                    <option value="Silver Package">Silver Package</option>
                     </select>
                 
                 <label htmlFor="message">Tell us about your event </label>
@@ -150,6 +150,12 @@ const Contacts = () => {
         <Layout>
             <FadeIn>
                 <div className="contact-container">
+                    <div className="contact-img">
+                        <img
+                            src="/photos/contactPhoto.jpg"
+                            alt="signing table"
+                        />
+                    </div>
                     <h1>Contact</h1>
                     <div className="contact-Letter">
                         {Contact()}
