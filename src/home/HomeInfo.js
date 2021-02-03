@@ -69,7 +69,7 @@ const HomeInfo = () => {
                     </FadeIn>
                 <Suspense fallback={<div>Loading...</div>}>
                     <Profile />
-                    {quoteOne()}
+                  
                     <div className="img-banner">
                         <img 
                             src="https://i.imgur.com/kUULilJ.jpg"
@@ -77,6 +77,7 @@ const HomeInfo = () => {
                         />
                     </div>
                     <div id="contact-anchor"></div>
+                    {quoteOne()}
                     {Contact()}
                 </Suspense>
             </div>
