@@ -2,8 +2,8 @@ import React from "react";
 import "./Profile.css"
 
 const Profile = () =>(
-<div className="profile-container">
-    <div className="profile">
+    <div className="profile-container">
+        <div className="profile">
         <div className="img-title-container">
             <div className="profile-pic">
             <img 
