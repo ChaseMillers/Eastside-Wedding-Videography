@@ -64,13 +64,16 @@ a{
     color: rgb(182, 182, 182);
 }
 .contact-container {
-    margin-top: 90px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(0deg,#fff,#dec3a1 14%,#fffbea 79%,#fff);
 }
-.contact-container h1{
+.contact-img {
+    z-index: -1;
+    position: absolute;
+    border-radius: 10px;
+}
+.contact-container h1 {
     text-align: center;
     font-weight: 500;
 }
