@@ -23,18 +23,21 @@ form {
     font-size: 30px;
 }
 
-form button{
+form button {
     cursor: pointer;
-    color: rgb(0, 0, 0);
+    color: #000;
     margin-top: 15px;
-    padding: 5px 20px;
-    background-color: white;
-    border: solid 1px rgb(0, 0, 0);
-    font-weight: 500;
+    padding: 5px 40px;
+    background-color: #fff;
+    text-align: center;
+    font-family: Dancing Script,cursive;
+    font-size: 30px;
 }
-form button:hover{
-    background-color: rgb(224, 224, 224);
-}
+    form button:hover {
+        background-color: rgb(224, 224, 224);
+        padding: 6px 41px;
+
+    }
 .contact-input {
     width: 230px;
 }
