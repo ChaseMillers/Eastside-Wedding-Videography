@@ -19,6 +19,7 @@ form {
 }
 .contact-header {
     text-align: center;
+    margin: 20px 0; 
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
 }
@@ -27,16 +28,17 @@ form button {
     cursor: pointer;
     color: #000;
     margin-top: 15px;
-    padding: 5px 40px;
+    
     background-color: #fff;
     text-align: center;
     font-family: Dancing Script,cursive;
     font-size: 30px;
+    width: 160px;
+    height: 50px;
 }
     form button:hover {
-        background-color: rgb(224, 224, 224);
-        padding: 6px 41px;
-
+        font-size: 31px;
+        box-shadow: 5px 1px 10px #afafaf;
     }
 .contact-input {
     width: 230px;
