@@ -142,7 +142,6 @@ const Contacts = () => {
 
     const ContactPage = (props) => (
         <Layout>
-            <FadeIn>
             <div className="img-container">
                 
                 <div className="contact-img">
@@ -151,20 +150,22 @@ const Contacts = () => {
                         alt="signing table"
                     />
                 </div>
-
+                
                 <div className="form-container">
+                    <FadeIn>
                 <h1>Contact</h1>
                 <div className="contact-Letter">
                         {Contact(props)}
                         </div>
+                    </FadeIn>
                         <Suspense fallback={<div></div>}>
                             <Email />
                         </Suspense>
             </div>
-               
+                
             </div>
                 
-                </FadeIn>
+                
         </Layout>
     );
 
