@@ -46,10 +46,11 @@ form button {
 
 .comp-info{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 a{
     line-height: 25px;
+    color:black;
 }
 .success{
     text-align: center;
@@ -110,27 +111,21 @@ option {
 }
 .contact-Letter {
     background: white;
-    max-width: 400px;
+    max-width: 300px;
     margin: 0 auto;
     border: solid 2px;
-   
     padding: 20px;
 }
 .contact-img {
     z-index: -1;
-    min-width:800px;
+    min-width:900px;
 }
-.from-container {
+.form-container {
     position: absolute;
+    width: 100%;
+    padding: 0 30px;
 }
 
 .package-input {
     margin: 0 5px 10px 5px;
 }
-/*.img-container {
-    background: url("/photos/contactPhoto.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: auto;
-}*/
