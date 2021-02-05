@@ -1,10 +1,12 @@
-import React, { useState, useEffect, Fragment } from 'react';
+import React, { useState, useEffect, Fragment, Suspense, lazy } from 'react';
 import "./Contact.css"
 import Layout from "../Layout/Layout"
 import FadeIn from 'react-fade-in';
 import emailjs from 'emailjs-com';
 import Email from "./Email.js";
-
+const Footer = lazy(() =>
+    import("./Email.js")
+);
 const Contacts = () => {
 
     const Contact = (props) => {
@@ -155,7 +157,9 @@ const Contacts = () => {
                 <div className="contact-Letter">
                         {Contact(props)}
                         </div>
-                        <Email />
+                        <Suspense fallback={<div></div>}>
+                            <Email />
+                        </Suspense>
             </div>
                
             </div>
