@@ -193,9 +193,6 @@ a.package-btn {
         flex-direction: row;
         max-width: 800px;
     }
-    .package{
-        padding:0 30px;
-    }
 }
 @media (max-width: 725px) {
     .package {
