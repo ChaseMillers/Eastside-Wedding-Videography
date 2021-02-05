@@ -14,7 +14,7 @@ const Packages = () =>{
 
     return(
         <Layout>
-            <FadeIn className="packages-container">
+            <FadeIn className="package-container">
                 
                     <h1>Packages</h1>
                     <div className="img-banner">
