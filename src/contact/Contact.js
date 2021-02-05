@@ -3,8 +3,7 @@ import "./Contact.css"
 import Layout from "../Layout/Layout"
 import FadeIn from 'react-fade-in';
 import emailjs from 'emailjs-com';
-import Email from "./Email.js";
-const Footer = lazy(() =>
+const Email = lazy(() =>
     import("./Email.js")
 );
 const Contacts = () => {
