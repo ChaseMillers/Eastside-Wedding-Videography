@@ -22,10 +22,11 @@ a.package-btn {
     background: #f2f2f3;
     position: relative;
     top: -80px;
+    box-shadow: 4px 3px 6px #0000004d;
+    padding: 8px 31px;
 }
     a.package-btn:hover {
-        box-shadow: 1px 3px 10px white;
-        padding: 8px 31px;
+        background: white;
     }
     a.package-btn:active {
         box-shadow: none;
