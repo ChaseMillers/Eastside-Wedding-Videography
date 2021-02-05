@@ -20,21 +20,21 @@ form button {
     cursor: pointer;
     color: #000;
     margin-top: 15px;
-    
-    background-color: #fff;
+    background-color: #f5f5f5;
     text-align: center;
     font-family: Dancing Script,cursive;
     font-size: 30px;
     width: 160px;
     height: 50px;
+    box-shadow: 4px 3px 6px #00000036;
+    border-radius: 3px;
 }
     form button:hover {
-        font-size: 31px;
-        box-shadow: 5px 1px 10px #afafaf;
+        background:white;
     }
     form button:active {
         box-shadow: none;
-        font-size: 30px;
+        font-size: 29px;
     }
    
 .contact-input {
@@ -115,6 +115,7 @@ option {
     margin: 0 auto;
     border: solid 2px;
     padding: 20px;
+    border-radius: 3px;
 }
 .contact-img {
     z-index: -1;
