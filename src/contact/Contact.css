@@ -9,14 +9,6 @@ form {
 }
 
 
-
-.contact-Letter {
-    background: white;
-    max-width: 400px;
-    margin: 0 20px;
-    border: solid 2px;
-    padding: 20px;
-}
 .contact-header {
     text-align: center;
     margin: 20px 0; 
@@ -40,6 +32,11 @@ form button {
         font-size: 31px;
         box-shadow: 5px 1px 10px #afafaf;
     }
+    form button:active {
+        box-shadow: none;
+        font-size: 30px;
+    }
+   
 .contact-input {
     width: 230px;
 }
@@ -73,11 +70,7 @@ a{
     flex-direction: column;
     align-items: center;
 }
-.contact-img {
-    z-index: -1;
-    position: absolute;
-    border-radius: 10px;
-}
+
 .contact-container h1 {
     text-align: center;
     font-weight: 500;
@@ -92,3 +85,52 @@ option {
     width: 100%;
     text-align-last: center;
 }
+
+.overflow{
+    overflow:hidden;
+}
+
+@media (max-width: 468px) {
+    .contact-img {
+        top: 155px;
+    }
+}
+
+.img-container h1{
+    font-weight:400;
+    text-align:center;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow:hidden;
+    clear:both;
+}
+.contact-Letter {
+    background: white;
+    max-width: 400px;
+    margin: 0 auto;
+    border: solid 2px;
+   
+    padding: 20px;
+}
+.contact-img {
+    z-index: -1;
+    min-width:800px;
+}
+.from-container {
+    position: absolute;
+}
+
+.package-input {
+    margin: 0 5px 10px 5px;
+}
+/*.img-container {
+    background: url("/photos/contactPhoto.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: auto;
+}*/
