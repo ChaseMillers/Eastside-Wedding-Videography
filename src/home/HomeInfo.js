@@ -76,7 +76,7 @@ const HomeInfo = () => {
                             alt="flower girls walking down aisle"
                         />
                     </div>
-                    <div id="contact-anchor"></div>
+                   
                     {quoteOne()}
                     {Contact()}
                 </Suspense>
