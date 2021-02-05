@@ -101,7 +101,7 @@ const Contacts = () => {
                 <label htmlFor="how">Which Package?<span className="optional">*</span></label>
                 <select
                     name="pack"
-                    className="contact-input package"
+                    className="contact-input package-input"
                     onChange={handleChange("pack")}
                     value={pack}
                     required>
@@ -140,17 +140,21 @@ const Contacts = () => {
     const ContactPage = (props) => (
         <Layout>
             <FadeIn>
-                <div className="contact-container">
-                    <div className="contact-img">
-                        <img
-                            src="/photos/contactPhoto.jpg"
-                            alt="signing table"
-                        />
-                    </div>
-                    <h1>Contact</h1>
-                    <div className="contact-Letter">
+            <div className="img-container">
+                
+                <div className="contact-img">
+                    <img
+                        src="/photos/contactPhoto.jpg"
+                        alt="signing table"
+                    />
+                </div>
+
+                <div className="from-container">
+                <h1>Contact</h1>
+                <div className="contact-Letter">
                         {Contact(props)}
-                    </div>
+                </div>
+            </div>
                     <div className="comp-info">
                         <a href="tel:+4252138204" rel="noopener noreferrer">
                             (425) 213-8204</a>
@@ -159,8 +163,11 @@ const Contacts = () => {
                             rel="noopener noreferrer"
                             target="_blank">eastsideweddingvideo@gmail.com</a>
                     </div>
+               
+            </div>
+            <div>
                 </div>
-            </FadeIn>
+                </FadeIn>
         </Layout>
     );
 
