@@ -7,6 +7,12 @@
     margin: 0 auto;
     padding: 0 30px;
 }
+.package-container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    clear: both;
+}
 
 a.package-btn {
     border: 2px solid;
@@ -26,7 +32,7 @@ a.package-btn {
         padding: 7px 30px;
     }
 
-    .packages-container h1 {
+    .package-container h1 {
         text-align: center;
         font-weight: 500;
     }
@@ -44,7 +50,7 @@ a.package-btn {
     padding: 0 10px;
 }
 
-.packages h2 {
+.package h2 {
     text-align: center;
     font-weight: 600;
     font-size: 20px;
@@ -187,8 +193,12 @@ a.package-btn {
         flex-direction: row;
         max-width: 800px;
     }
-
+    .package{
+        padding:0 30px;
+    }
+}
+@media (max-width: 725px) {
     .package {
-        margin: 0 5px 10px 5px;
+        padding: 0 30px;
     }
 }
