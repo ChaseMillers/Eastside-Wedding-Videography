@@ -3,6 +3,7 @@ import "./Contact.css"
 import Layout from "../Layout/Layout"
 import FadeIn from 'react-fade-in';
 import emailjs from 'emailjs-com';
+import Email from "./Email.js";
 
 const Contacts = () => {
 
@@ -149,24 +150,16 @@ const Contacts = () => {
                     />
                 </div>
 
-                <div className="from-container">
+                <div className="form-container">
                 <h1>Contact</h1>
                 <div className="contact-Letter">
                         {Contact(props)}
-                </div>
+                        </div>
+                        <Email />
             </div>
-                    <div className="comp-info">
-                        <a href="tel:+4252138204" rel="noopener noreferrer">
-                            (425) 213-8204</a>
-                        <br />
-                        <a href="mailto:eastsideweddingvideo@gmail.com"
-                            rel="noopener noreferrer"
-                            target="_blank">eastsideweddingvideo@gmail.com</a>
-                    </div>
                
             </div>
-            <div>
-                </div>
+                
                 </FadeIn>
         </Layout>
     );
