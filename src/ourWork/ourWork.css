@@ -15,7 +15,13 @@
     font-size: 17px;
 }
 
-.name{
+.portfolio-container{
+    clear:both;
+    display:flex;
+    flex-direction:column;
+}
+
+.name {
     margin: 10px 0 !important;
     text-align: center;
 }
