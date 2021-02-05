@@ -31,5 +31,7 @@
 }
 .teaser-section {
     padding-top: 15px;
-    background: linear-gradient(90deg, rgba(255,225,205,1) 0%, rgba(255,252,250,1) 48%, rgba(255,225,205,1) 100%);
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(242,230,230,1) 10%, rgba(242,230,230,1) 44%, rgba(255,255,255,1) 100%);
+    padding-top: .1px;
 }
