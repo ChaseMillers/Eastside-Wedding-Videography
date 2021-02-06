@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Buttons.css"
-import { Link } from 'react-scroll';
+import { Link } from "react-router-dom";
 
 const Buttons = () =>{
     const videoContactBtn = () =>{
@@ -8,10 +8,7 @@ const Buttons = () =>{
             <div className="btn-video-container">
                 <Link 
                     className="video-btn"  
-                    spy={true}
-                    smooth={true}
-                    offset={-75}
-                    to="contact-anchor">
+                    to="/contact">
                     Contact Us
                 </Link>
             </div>
@@ -19,7 +16,7 @@ const Buttons = () =>{
     }
    
     return {
-        videoContactBtn,
+        videoContactBtn
     }
 }
 export default Buttons
