@@ -119,7 +119,7 @@ const Packages = () =>{
     }
 
     return (
-        
+        Package && 
         <Layout>
             <FadeIn className="package-container">
                 
