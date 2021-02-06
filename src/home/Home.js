@@ -11,7 +11,8 @@ const Home = () => {
     const {
         videoContactBtn
     } = Buttons();
-    return(
+    return (
+        HomeInfo &&
         <Layout>
             <div className="home-container">
 
