@@ -12,7 +12,6 @@ const Profile = lazy(() =>
 const HomeInfo = () => {
     const {
         quoteOne,
-        quoteTwo
     } = Testimonials();
     const {
         Contact
