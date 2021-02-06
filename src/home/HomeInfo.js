@@ -35,7 +35,7 @@ const HomeInfo = () => {
                             priceless keepsake allowing you to treasure the memory forever.  
                         </p>
                     </div>
-                    {quoteTwo()}
+                    
                 </section>
                 <FadeIn>
                 <section >
@@ -43,7 +43,7 @@ const HomeInfo = () => {
                             imgURL="https://imgur.com/O6zPhlo.jpg"
                             videoURL="https://player.vimeo.com/video/448812775?autoplay=1"
                     />
-                     
+                      
                     <div className="our-work">
                         <Link className="home-link" to="/ourwork">
                             <div className="button-work one">
