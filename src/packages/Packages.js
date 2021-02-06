@@ -1,5 +1,4 @@
 import React, { useEffect, Suspense, lazy } from 'react';
-import { Link } from "react-router-dom";
 import Layout from "../Layout/Layout"
 import "./Packages.css"
 import FadeIn from 'react-fade-in';
