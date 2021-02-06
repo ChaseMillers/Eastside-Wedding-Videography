@@ -140,6 +140,7 @@ const Contacts = () => {
     }
 
     const ContactPage = (props) => (
+        Contact &&
         <Layout>
             <div className="img-container">
                 
