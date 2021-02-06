@@ -1,8 +1,7 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link } from "react-router-dom";
-import Layout from "../Layout/Layout"
 import "./Packages.css"
-import FadeIn from 'react-fade-in';
+
 
     const PackageSet = () => {
         return (
