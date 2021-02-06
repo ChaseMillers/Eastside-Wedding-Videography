@@ -42,16 +42,17 @@ img{
     justify-content: center;
 }
 
-.our-work h2{
-    text-align: center;
-    position: absolute;
-    font-weight: 500;
-    height: 100px;
-    color: white;
-    text-shadow: rgb(0, 0, 0) 1px 0 10px;
-    z-index: 1;
-    font-size: 40px;
-}
+    .our-work h2 {
+        text-align: center;
+        position: absolute;
+        font-weight: 500;
+        height: 100px;
+        color: white;
+        text-shadow: rgb(0, 0, 0) 1px 0 10px;
+        z-index: 1;
+        font-size: 40px;
+        line-height: 80px;
+    }
 
 .stars{
     margin: 10px 0 0 0;
@@ -104,4 +105,3 @@ img{
             margin: 20px 20px 20px 10px;
         }
     }
-
