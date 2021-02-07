@@ -16,14 +16,10 @@
     position: absolute;
     width: 100%;
     z-index: 1;
-    margin-top: 45vw;
+    margin-top: 40vw;
 }
 
-@media (max-width: 400px) {
-    .btn-video-container {
-        margin-top: 55vw;
-    }
-}
+
 
     @media (min-width: 650px) {
         .btn-video-container {
@@ -31,6 +27,7 @@
         }
 
         .video-btn {
+            margin-top: 150px;
             font-size: 18px;
             padding: 15px 30px;
             border: solid 2px rgb(255, 255, 255);
