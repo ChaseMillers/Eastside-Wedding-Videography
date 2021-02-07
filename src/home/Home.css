@@ -6,7 +6,7 @@
     margin-top: 30px;
 }
 .message {
-    margin: 40px auto;
+    margin: 50px auto 60px auto;
     max-width: 500px;
     text-align: center;
     padding: 0 20px;
@@ -105,3 +105,9 @@ img{
             margin: 20px 20px 20px 10px;
         }
     }
+
+@media (max-width: 550px) {
+    .message {
+        margin: -10px auto 30px auto;
+    }
+}
