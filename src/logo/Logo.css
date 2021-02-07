@@ -28,8 +28,17 @@
 @media (max-width: 650px) {
     .logo {
         margin-bottom: -50px;
-        max-width: 400px;
+        margin-top: 10px;
+        max-width: 260px;
         font-size: 14px;
     }
-      
+        .logo h1 {
+            margin-bottom:5px;
+        } 
+}
+
+@media (max-width: 350px) {
+    .logo {
+        font-size: 12px;
+    }
 }
