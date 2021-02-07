@@ -3,7 +3,7 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-family: 'Dancing Script', cursive;
     font-size: 20px;
 }
@@ -11,9 +11,9 @@ form {
 
 .contact-header {
     text-align: center;
-    margin: 20px 0; 
+    margin: 0px 0 10px 0;
     font-family: 'Dancing Script', cursive;
-    font-size: 30px;
+    font-size: 29px;
 }
 
 form button {
