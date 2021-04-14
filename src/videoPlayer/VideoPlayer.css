@@ -29,6 +29,10 @@
     overflow: hidden;
     max-width: 760px;
     margin: 0 auto;
+    transition: box-shadow .3s;
+}
+.video-preload:hover{
+    box-shadow: 5px 10px 20px #69696957;
 }
 
 .vimeo-container iframe {
