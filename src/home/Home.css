@@ -27,8 +27,20 @@
 }
 /* on home-link hover, effect only img-holder */
 .button-work:hover img{
- opacity: 0.95;
  transform: scale(1.01);
+}
+.button-work:hover{
+    box-shadow: 5px 10px 20px #69696957;
+}
+.button-work{
+    transition: box-shadow .3s;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    max-height: 150px;
+    overflow: hidden;
+    margin: 20px 0 0 0;
 }
 
 img{
@@ -62,15 +74,7 @@ img{
 .stars{
     margin: 10px 0 0 0;
 }
-.button-work{
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
-    max-height: 150px;
-    overflow: hidden;
-    margin: 20px 0 0 0;
-}
+
 
 @media (min-width: 650px) {
 
