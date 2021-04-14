@@ -56,7 +56,7 @@
     max-width: 800px;
     margin: 0 auto;
 }
-img:hover{
+.video-preload img:hover{
     opacity: .95;
     transform: scale(1.01);
 }
