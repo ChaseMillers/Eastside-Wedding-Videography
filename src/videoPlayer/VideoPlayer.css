@@ -26,6 +26,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    max-width: 760px;
+    margin: 0 auto;
 }
 
 .vimeo-container iframe {
@@ -49,9 +52,12 @@
     max-width: 800px;
     margin: 0 auto;
 }
+img:hover{
+    opacity: .95;
+    transform: scale(1.01);
+}
 
 .home-light-photo {
-    max-width: 760px;
     display: inline-block;
     position: relative;
     object-fit: cover;
