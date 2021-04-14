@@ -26,9 +26,9 @@
     margin: 0 20px;
 }
 /* on home-link hover, effect only img-holder */
-.home-link:hover .button-work img{
- opacity: 0.8;
- transform: scale(1.02);
+.button-work:hover img{
+ opacity: 0.95;
+ transform: scale(1.01);
 }
 
 img{
