@@ -44,25 +44,25 @@ const HomeInfo = () => {
                     />
                       
                     <div className="our-work">
-                        <Link className="home-link" to="/ourwork">
-                            <div className="button-work one">
+                        <div className="home-link" to="/ourwork">
+                            <Link className="button-work one">
                                 <h2>Our Work</h2>
                                 <div className="img-holder">
                                     <img 
                                     src="https://imgur.com/jgquN5x.jpg"
                                     alt="Bride and Groom" />
                                 </div>
-                            </div>
-                        </Link>
-                        <Link className="home-link" to="/packages">
-                            <div className="button-work two">
+                            </Link>
+                        </div>
+                        <div className="home-link" to="/packages">
+                            <Link className="button-work two">
                                 <h2>Packages</h2>
                                 <div className="img-holder">
                                     <img src="https://i.imgur.com/clnDaMA.jpg"
                                     alt="Wedding cake"/>
                                 </div>
-                            </div>
-                        </Link>
+                            </Link>
+                        </div>
                     </div>
                     </section>
                     </FadeIn>
@@ -83,6 +83,5 @@ const HomeInfo = () => {
             </FadeIn>
     )
 }
-
 
 export default HomeInfo
