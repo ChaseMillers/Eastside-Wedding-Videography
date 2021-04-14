@@ -26,11 +26,12 @@ form button {
     font-size: 30px;
     width: 160px;
     height: 50px;
-    box-shadow: 4px 3px 6px #00000036;
     border-radius: 3px;
+    transition: box-shadow .3s, background-color .3s;
 }
     form button:hover {
-        background:white;
+        box-shadow: 4px 3px 6px #00000036;
+        background-color:white;
     }
     form button:active {
         box-shadow: none;
