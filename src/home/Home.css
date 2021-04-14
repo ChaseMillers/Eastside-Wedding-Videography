@@ -27,11 +27,12 @@
 }
 /* on home-link hover, effect only img-holder */
 .home-link:hover .button-work img{
- opacity: 0.5;
+ opacity: 0.8;
+ transform: scale(1.02);
 }
 
 img{
-    transition: opacity .3s;
+    transition: opacity .3s, transform .3s;
 }
 
 img{
