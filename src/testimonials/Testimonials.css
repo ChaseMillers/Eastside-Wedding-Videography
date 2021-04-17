@@ -19,8 +19,11 @@
 .quote p{
     margin: 0px;
     padding: 5px;
-    font-style: italic;
+}
+.quote .lite{
+    color:#292a2c;
 }
 .quoter{
     color: grey;
+    font-weight: 400;
 }
