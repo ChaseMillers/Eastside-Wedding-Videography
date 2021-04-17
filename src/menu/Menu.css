@@ -11,16 +11,13 @@ a.nav-link {
   text-decoration: none;
 }
 a.nav-link:hover {
-  color: rgb(0, 0, 0) !important;
+  color: #292a2c !important;
   font-weight: 500;
 }
 
 .nav-link {
   padding: 6.4px 30px;
   display: block;
-}
-a.nav-link:hover {
-  color: #292a2c;
 }
 
 .header ul {
