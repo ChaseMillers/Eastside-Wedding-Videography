@@ -7,7 +7,7 @@ const Testimonials = () =>{
         <div className="quote-container">
             <h1 className="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
             <div className="quote">
-                <p>
+                <p className="lite">
                     "We can always pull out 
                     our wedding video to watch the pure magic of sharing vows, 
                     the tear jerking toasts, and the amazing people that came to 
@@ -21,7 +21,7 @@ const Testimonials = () =>{
         <div className="quote-container">
             <h1 className="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
             <div className="quote">
-                <p>
+                <p className="lite">
                     "The video looks just like how we pictured our wedding day. 
                     We are so thankful to have the memories forever to look back on!"
                 </p>
@@ -34,7 +34,7 @@ const Testimonials = () =>{
         <div className="quote-container">
             <h1 className="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
             <div className="quote">
-                <p>
+                <p className="lite">
                     "Absolutely fantastic job! The time and effort clearly shows and the amount 
                     of detail to make our day as special as possible was unprecedented! Thanks for 
                     all the hard work! We love it!"
@@ -48,7 +48,7 @@ const Testimonials = () =>{
         <div className="quote-container">
             <h1 className="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
             <div className="quote">
-                <p>
+                <p className="lite">
                     "Greg did a wonderful job! He captured every detail and 
                     his editing is so thought out and well done. Was professional, 
                     on time and got the video done SO quickly! He’s got serious talent. 
@@ -63,7 +63,7 @@ const Testimonials = () =>{
         <div className="quote-container">
             <h1 className="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
             <div className="quote">
-                <p>
+                <p className="lite">
                     "We are so happy we chose Greg to film our special day! 
                     He is so friendly and an excellent videographer. He captured 
                     all of our moments from the vows to the Newlywed Game, 
@@ -79,7 +79,7 @@ const Testimonials = () =>{
         <div className="quote-container">
             <h1 className="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
             <div className="quote">
-                <p>
+                <p className="lite">
                     "Greg not only caught the details and wedding 
                     ceremony but also the “behind the scenes” parts that make our 
                     relationship special, he also worked alongside our photographers 
