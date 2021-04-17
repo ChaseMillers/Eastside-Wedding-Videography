@@ -7,13 +7,13 @@
 }
 .message {
     margin: 50px auto 60px auto;
-    max-width: 500px;
+    max-width: 600px;
     text-align: center;
     padding: 0 20px;
 }
 .message h1{
-  font-size: 23px;
-  font-weight: 400;
+    font-size: 30px;
+    font-weight: 400;
 }
 .message p{
     color: #8a8a8a;
