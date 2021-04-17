@@ -29,10 +29,12 @@ const HomeInfo = () => {
             <section className="caption-one">
                     <div className="message">
                         <h1>HELPING YOU REMEMBER EVERY MOMENT.</h1>
+                        <span className="lite">
                         <p> 
                             We’ll capture your unique story, creating a 
                             priceless keepsake allowing you to treasure the memory forever.  
                         </p>
+                        </span>
                     </div>
                     
                 </section>
