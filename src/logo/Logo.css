@@ -1,6 +1,6 @@
 
 .logo {
-    color: black;
+    color: #292a2c;
     text-align: center;
     text-decoration: none;
     font-family: 'Old Standard TT';
@@ -9,7 +9,6 @@
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    
 }
 
     .logo h1 {
