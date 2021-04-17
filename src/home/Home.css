@@ -18,7 +18,8 @@
 .message p{
     color: #8a8a8a;
     margin: 0 auto;
-    font-size: 17px;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 .img-holder{
