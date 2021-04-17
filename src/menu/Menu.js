@@ -15,7 +15,7 @@ const Menu = ({ history }) => {
   });
   const isActive = (history, path) => {
     if (history.location.pathname === path) {
-        return { color: '#000000' };
+        return { color: '#292a2c' };
     } else {
         return { color: '#a5a5a5' };
     }
