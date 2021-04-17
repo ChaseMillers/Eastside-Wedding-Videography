@@ -102,7 +102,7 @@ a.package-btn {
     }
 
 .packages-btn {
-    color: black;
+    color: #292a2c;
     padding: 10px 25px;
     font-size: 18px;
     border: solid 2px rgb(0 0 0);
@@ -150,7 +150,7 @@ a.package-btn {
     border-radius:10px;
     margin-bottom: 10px;
     padding-bottom: 30px;
-    border: 1px solid black;
+    border: 1px solid #292a2c;
     text-align: center;
     display: flex;
     flex-direction: column;
