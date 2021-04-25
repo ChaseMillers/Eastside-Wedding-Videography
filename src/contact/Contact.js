@@ -56,7 +56,7 @@ const Contacts = () => {
 
         const showSuccess = success => (
             success && <div className="success">
-                <h3>Thanks For Contacting Us!</h3>
+                <h3>Thank You For Contacting Us!</h3>
                 <p>We will get back to you as soon as we can!
       You should recieve an email from us shortly.</p>
             </div>
@@ -107,7 +107,7 @@ const Contacts = () => {
                     onChange={handleChange("pack")}
                     value={pack}
                     required>
-                    <option value="" style={{ display: "none" }}> -- Select an option -- </option>
+                    <option value="" style={{ display: "none" }}>Select An Option</option>
                     <option value="Gold Package">Gold Package</option>
                     <option value="Platinum Package">Platinum Package</option>
                     <option value="Silver Package">Silver Package</option>
@@ -127,11 +127,6 @@ const Contacts = () => {
         );
         return (
             <Fragment>
-                <h3 className="contact-header">
-                    Questions? <br />
-            Want to reserve a date? <br />
-            Contact Us! <br />
-                </h3>
                 {form(data.showForm)}
                 {showLoading(data.loading)}
                 {showSuccess(data.success)}
