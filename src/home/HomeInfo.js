@@ -46,8 +46,8 @@ const HomeInfo = () => {
                     />
                       
                     <div className="our-work">
-                        <div className="home-link" to="/ourwork">
-                            <Link className="button-work one">
+                        <div className="home-link">
+                            <Link className="button-work one" to="/ourwork">
                                 <h2>Our Work</h2>
                                 <div className="img-holder">
                                     <img 
@@ -56,8 +56,8 @@ const HomeInfo = () => {
                                 </div>
                             </Link>
                         </div>
-                        <div className="home-link" to="/packages">
-                            <Link className="button-work two">
+                        <div className="home-link">
+                            <Link className="button-work two" to="/packages">
                                 <h2>Packages</h2>
                                 <div className="img-holder">
                                     <img src="https://i.imgur.com/clnDaMA.jpg"
