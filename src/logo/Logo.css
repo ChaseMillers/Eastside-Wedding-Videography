@@ -3,7 +3,7 @@
     color: #292a2c;
     text-align: center;
     text-decoration: none;
-    font-family: 'Old Standard TT';
+    font-family: 'Old Standard TT', serif;
     padding: 0 20px;
     max-width: 468px;
     margin: 0 auto;
@@ -13,6 +13,7 @@
 
     .logo h1 {
         z-index: 1;
+        font-family: 'Old Standard TT', serif;
     }
 
 @media (min-width: 650px) {
