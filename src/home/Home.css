@@ -11,9 +11,24 @@
     text-align: center;
     padding: 0 20px;
 }
+@media (max-width: 650px) {
+    .message{
+        max-width: 400px;
+    }
+}
+@media (max-width: 450px) {
+    .message{
+        max-width: 300px;
+    }
+}
 .message h1{
     font-size: 30px;
     font-weight: 400;
+}
+@media (max-width: 650px) {
+    .message h1{
+        font-size: 20px;
+    }
 }
 .message p{
     color: #8a8a8a;
@@ -115,9 +130,3 @@ img{
             margin: 20px 20px 20px 10px;
         }
     }
-
-@media (max-width: 550px) {
-    .message {
-        margin: -10px auto 30px auto;
-    }
-}

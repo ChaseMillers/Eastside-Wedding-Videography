@@ -14,7 +14,7 @@ const Home = () => {
     return (
         HomeInfo &&
         <Layout>
-            <div className="home-container me">
+            <div className="home-container">
 
                 <div className="home-demo">
                 {videoContactBtn()}

@@ -4,36 +4,31 @@
     text-align: center;
     text-decoration: none;
     font-family: 'Old Standard TT', serif;
-    padding: 0 20px;
-    max-width: 468px;
+    display: block;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
+    max-width: 400px;
+    line-height: 35px;
+    font-size: 18px;
 }
 
     .logo h1 {
         z-index: 1;
-        font-family: 'Old Standard TT', serif;
+        margin-bottom: 20px;
+        position: relative;
     }
 
 @media (min-width: 650px) {
     .logo img{
       width: 300px;
     }
-    .logo {
-        margin-top: 10px;
-      
-    }
 }
 @media (max-width: 650px) {
     .logo {
-        margin-bottom: -50px;
-        margin-top: 15px;
-        max-width: 260px;
         font-size: 14px;
+        width: 260px;
     }
         .logo h1 {
-            margin-bottom:5px;
+            margin-bottom: -50px;
         } 
 }
 

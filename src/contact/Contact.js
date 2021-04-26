@@ -64,6 +64,7 @@ const Contacts = () => {
 
         const form = showForm => (
             showForm && <form onSubmit={handleSubmit}>
+                <h1>Contact Us</h1>
                 <label htmlFor="name">Name<span className="optional">*</span></label>
                 <input
                     className="contact-input"
@@ -71,7 +72,8 @@ const Contacts = () => {
                     name="name"
                     value={name}
                     onChange={handleChange("name")}
-                    required
+                    requiredform
+
                 />
                 <label htmlFor="email">Email<span className="optional">*</span></label>
                 <input
@@ -91,15 +93,6 @@ const Contacts = () => {
                     onChange={handleChange("phone")}
                 />
               
-                <label htmlFor="location">Venue/Locations<span className="optional">*</span></label>
-                <input
-                    className="contact-input"
-                    type="text"
-                    name="location"
-                    value={location}
-                    onChange={handleChange("location")}
-                    required
-                />
                 <label htmlFor="how">Which Package?<span className="optional">*</span></label>
                 <select
                     name="pack"
@@ -107,7 +100,7 @@ const Contacts = () => {
                     onChange={handleChange("pack")}
                     value={pack}
                     required>
-                    <option value="" style={{ display: "none" }}>Select An Option</option>
+                    <option value="" style={{ display: "none" }}>Select an Option</option>
                     <option value="Gold Package">Gold Package</option>
                     <option value="Platinum Package">Platinum Package</option>
                     <option value="Silver Package">Silver Package</option>
@@ -148,10 +141,10 @@ const Contacts = () => {
                 
                 <div className="form-container">
                     <FadeIn>
-                <h1>Contact</h1>
+                
                 <div className="contact-Letter">
                         {Contact(props)}
-                        </div>
+                </div>
                     </FadeIn>
                         <Suspense fallback={<div></div>}>
                             <Email />
