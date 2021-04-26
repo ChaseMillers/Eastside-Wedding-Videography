@@ -89,6 +89,18 @@ img{
 
 .stars{
     margin: 10px 0 0 0;
+    color: rgb(172, 172, 172);
+}
+
+.contact-holder {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.contact-holder h1{
+    font-family: 'Open Sans',sans-serif;
+    text-align: center;
+    font-weight: 100;
 }
 
 

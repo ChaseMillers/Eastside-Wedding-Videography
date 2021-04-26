@@ -23,7 +23,8 @@ form button {
     font-weight: 300;
     width: 160px;
     margin: 20px auto;
-    border-radius: 1px;
+    border-radius: 3px;
+    border: solid 2px grey;
     transition: box-shadow .3s, background-color .3s;
 }
     form button:hover {
@@ -102,6 +103,7 @@ option {
     font-size: 30px;
     margin-bottom: 30px;
     text-align: center;
+    font-family: 'Open Sans',sans-serif;
 }
 
 .img-container {

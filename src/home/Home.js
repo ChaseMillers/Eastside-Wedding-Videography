@@ -24,6 +24,7 @@ const Home = () => {
                     playing
                     preload="true"
                     muted
+                    playsinline="true"
                     loop
                     width='100%'
                     height='100%'

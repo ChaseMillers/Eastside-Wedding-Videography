@@ -79,7 +79,9 @@ const HomeInfo = () => {
                     </div>
                    
                     {quoteOne()}
+                    <div className="contact-holder">
                     {Contact()}
+                    </div>
                 </Suspense>
             </div>
             </FadeIn>
