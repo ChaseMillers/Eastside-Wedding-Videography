@@ -27,7 +27,6 @@ const Contacts = () => {
         let {
             name = data.name,
             email = data.email,
-            location = data.location,
             message = data.message,
             phone = data.phone,
             pack = data.package
@@ -56,7 +55,7 @@ const Contacts = () => {
 
         const showSuccess = success => (
             success && <div className="success">
-                <h3>Thank You For Contacting Us!</h3>
+                <h3>Thanks For Contacting Us!</h3>
                 <p>We will get back to you as soon as we can!
       You should recieve an email from us shortly.</p>
             </div>
