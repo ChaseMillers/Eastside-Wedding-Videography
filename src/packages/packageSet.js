@@ -135,8 +135,8 @@ import "./Packages.css"
                         </div>
                         <div className="add-on one">
                             <h2 className="every-package">Social Media Trailer</h2>
-                            <p className="lite">A 60 second highlight trailer of your Wedding Day,
-                    perfect for sharing on Social Media.</p>
+                            <p className="lite">A 60 second highlight trailer of your wedding day,
+                    perfect for sharing on social media.</p>
                             <h3>$200</h3>
                         </div>
                         <div className="add-on two">
@@ -154,7 +154,7 @@ import "./Packages.css"
                         </div>
                         <div className="add-on four">
                             <h2 className="every-package">Home Video Edit</h2>
-                            <p className="lite"> An un edited montage of ALL of the footage we shot from
+                            <p className="lite"> An un-edited montage of ALL the footage we shot from
                             the entire day. This all delivered separately from your
                     Cinematic Highlight Film.</p>
                             <h3>$500</h3>

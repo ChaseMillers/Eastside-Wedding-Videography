@@ -58,8 +58,8 @@ const OurWork = () => {
                     </section>
                     <section className="teaser-section">
                     <h2 className="title">One-Minute Teaser Films</h2>
-                    <p className="teaser-text">This is a 60 Second Highlight Teaser of your wedding, 
-                        perfect for sharing your special day with friends and family on Social Media.</p>
+                    <p className="teaser-text">This is a 60 second highlight teaser of your wedding, 
+                        perfect for sharing your special day with friends and family on social media.</p>
                         <div className="portfolio">
                             <OurWorkVideo 
                             imgURL="https://i.imgur.com/ZMC5hYs.jpg"
