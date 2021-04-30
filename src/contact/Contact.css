@@ -3,7 +3,6 @@ form {
     font-size: 18px;
     font-family: 'Literata', serif;
     font-weight: 300;
-    line-height: 27px;
 }
 
 
@@ -60,7 +59,7 @@ a{
 }
 .optional{
     margin-right: -5px;
-    color: rgb(182, 182, 182);
+    color: #ff6386;
 }
 .contact-container {
     display: flex;

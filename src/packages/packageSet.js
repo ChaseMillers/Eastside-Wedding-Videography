@@ -6,14 +6,70 @@ import "./Packages.css"
     const PackageSet = () => {
         return (
             <div className="packages-container">
-                <h2 className="every-package">Every package includes:</h2>
-                <ul>
-                    <li>Consultation before the wedding.</li>
-                    <li>Cinematic highlight film.</li>
-                    <li>Multiple camera angles.</li>
-                    <li>3 DVD copies, USB copy and digital download.</li>
-                    <li>Your video, hosted online to share your special day.</li>
-                </ul>
+                <h2 className="every-package">Every Package Includes</h2>
+                <div className="icons">
+                    <div className="row-one">
+                        <div className="icon-div">
+                            <img
+                                className="icon"
+                                src="photos/chat.png"
+                                alt="Consulation icon"
+                            />
+                            <p>Consultation</p>
+                        </div>
+
+                        <div className="icon-div">
+                        <img
+                            className="icon"
+                            src="photos/share.png"
+                            alt="Online share Icon"
+                        />
+                            <p>Video Hosted <br/>
+                            Online</p>
+                        </div>
+
+                        <div className="icon-div">
+                            <img
+                                className="icon"
+                                src="photos/real.png"
+                                alt="Real Icon"
+                            />
+                            <p>Cinematic Highlight<br/>
+                            Film</p>
+                        </div>
+                    </div>
+
+                    <div className="row-two">
+                        <div className="icon-div">
+                            <img
+                                className="icon"
+                                src="photos/camera.png"
+                                alt="Camera Icon"
+                            />
+                            <p>Multiple Camera <br/> 
+                            Angles</p>
+                        </div>
+                        <div className="icon-div">
+                            <img
+                                className="icon"
+                                src="photos/microphone.png"
+                                alt="Microphone Icon"
+                            />
+                            <p>Professional Live <br/>
+                            Audio</p>
+                        </div>
+
+                        <div className="icon-div">
+                            <img
+                                className="icon"
+                                src="photos/present.png"
+                                alt="Present Icon"
+                            />
+                            <p>Physical and <br/>
+                            Digital Copies</p>
+                        </div>
+                    </div>
+                </div>
 
                 <div className="packages">
 

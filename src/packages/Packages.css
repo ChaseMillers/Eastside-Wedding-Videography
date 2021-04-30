@@ -60,16 +60,11 @@ a.package-btn {
     padding-bottom: 30px;
 }
 
-.packages-container ul {
-    max-width: 500px;
-    padding: 10px 20px 20px 50px;
-    margin: 0 auto 10px auto;
-}
-
 .every-package {
     text-align: center;
     margin-bottom: 0;
     font-weight: 500;
+    font-size: 26px;
 }
 
 /* Package BOX */
@@ -190,13 +185,79 @@ a.package-btn {
     overflow: hidden;
 }
 
-@media (min-width: 726px) {
+.add-ons-title {
+    text-align: center;
+    font-weight: 400;
+    color: #ff698b;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 0;
+    font-weight: 600;
+}
+.row-one{
+    display: flex;
+    align-items: center;
+   padding-right:10px;
+}
+.row-two{
+    display: flex;
+    align-items: center;
+    padding-left:10px;
+}
+.icons img{
+    width: 50px;
+    height: auto;
+}
+.icon-div{
+    height: 150px;
+    width: 200px;
+}
+@media (max-width: 650px){
+.icons{
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    margin: 40px 0;
+    font-weight: 600;
+}
+.row-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding-right:10px;
+}
+.row-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left:10px;
+}
+.icons img{
+    width: 50px;
+    height: auto;
+}
+.icon-div{
+    height: 130px;
+    width: auto;
+}
+}
+
+@media (min-width: 650px) {
     .packages {
         flex-direction: row;
         max-width: 800px;
     }
 }
-@media (max-width: 725px) {
+@media (max-width: 650px) {
     .package {
         padding: 0 55px;
     }

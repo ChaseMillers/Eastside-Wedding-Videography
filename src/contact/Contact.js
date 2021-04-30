@@ -105,7 +105,7 @@ const Contacts = () => {
                     <option value="Silver Package">Silver Package</option>
                 </select>
 
-                <label htmlFor="message">Tell us about your event </label>
+                <label htmlFor="message">Tell us about your event! </label>
                 <textarea
                     className="contact-input tell-us"
                     type="textarea"

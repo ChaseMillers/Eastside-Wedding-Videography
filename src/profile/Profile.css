@@ -27,8 +27,11 @@
 .profile h3 {
     width: 150px;
     margin: 0 20px 0 5px;
-    font-weight: 500;
-    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Literata', serif;
+    color: rgb(255 89 126);
+    font-size: 17px;
+    text-transform: uppercase;
 }
 
 .img-title-container {
