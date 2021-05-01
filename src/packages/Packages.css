@@ -228,6 +228,7 @@ a.package-btn {
     text-align: center;
     margin: 40px 0;
     font-weight: 600;
+    font-size: 15px;
 }
 .row-one{
     display: flex;
