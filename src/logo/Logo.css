@@ -8,14 +8,13 @@
     max-width: 400px;
     line-height: 35px;
     font-size: 18px;
-    margin: 0 auto;
+    margin: 5px auto;
 }
 
     .logo h1 {
         z-index: 999;
         margin-bottom: 20px;
         position: relative;
-        
     }
 
 @media (min-width: 650px) {
@@ -29,12 +28,13 @@
         width: 260px;
     }
         .logo h1 {
-            margin-bottom: -32px;
+            margin-bottom: -38px;
         } 
 }
 
 @media (max-width: 350px) {
     .logo {
+        width: 191px;
         font-size: 12px;
     }
 }
