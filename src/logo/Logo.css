@@ -5,7 +5,6 @@
     text-decoration: none;
     font-family: 'Old Standard TT', serif;
     display: block;
-    margin: 0 auto;
     max-width: 400px;
     line-height: 35px;
     font-size: 18px;
@@ -16,6 +15,10 @@
         margin-bottom: 20px;
         position: relative;
         width: 255px;
+    }
+    .logo-holder {
+        display: flex;
+        justify-content: center;
     }
 
 @media (min-width: 650px) {
@@ -29,7 +32,7 @@
         width: 260px;
     }
         .logo h1 {
-            margin-bottom: -40px;
+            margin-bottom: -50px;
         } 
 }
 

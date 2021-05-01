@@ -75,9 +75,7 @@ li.nav-item {
 .nav-item > .active {
   font-weight: 500;
 }
-.navicon{
-  width: 20px;
-}
+
 @-webkit-keyframes slide {
   100% { right: 0; }
 }
