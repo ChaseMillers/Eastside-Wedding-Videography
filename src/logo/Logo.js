@@ -4,11 +4,9 @@ import { Link } from "react-router-dom";
 
 const Logo = () => {
     return(
-        <div className="logo-holder">
-            <Link className="logo" to="/">
-                <h1>Eastside Wedding Videography</h1>
-            </Link>
-        </div>
+        <Link className="logo" to="/">
+            <h1>Eastside Wedding Videography</h1>
+        </Link>
     )
 }
 

@@ -8,6 +8,7 @@
     max-width: 400px;
     line-height: 35px;
     font-size: 18px;
+    margin: 0 auto;
 }
 
     .logo h1 {
@@ -15,10 +16,6 @@
         margin-bottom: 20px;
         position: relative;
         width: 255px;
-    }
-    .logo-holder {
-        display: flex;
-        justify-content: center;
     }
 
 @media (min-width: 650px) {
@@ -32,7 +29,7 @@
         width: 260px;
     }
         .logo h1 {
-            margin-bottom: -50px;
+            margin-bottom: -32px;
         } 
 }
 

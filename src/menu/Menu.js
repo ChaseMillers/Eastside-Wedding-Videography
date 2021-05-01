@@ -25,7 +25,11 @@ const Menu = ({ history }) => {
         <input onChange={e => {}} className="menu-btn" type="checkbox" id="menu-btn" checked={active}/>
         <label className="menu-icon" htmlFor="menu-btn">
           <span className="navicon">
-           <HamburgerSqueeze isActive={active} toggleButton={toggleButton} />
+           <HamburgerSqueeze 
+            buttonWidth={32}
+            isActive={active} 
+            toggleButton={toggleButton} 
+           />
            </span>
         </label>
 
