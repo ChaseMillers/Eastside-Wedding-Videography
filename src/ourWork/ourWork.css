@@ -35,3 +35,10 @@
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(242,230,230,1) 10%, rgba(242,230,230,1) 44%, rgba(255,255,255,1) 100%);
     padding-top: .1px;
 }
+.tease-films{
+    display: flex;
+justify-content: center;
+}
+.tease{
+    width: 400px;
+}
