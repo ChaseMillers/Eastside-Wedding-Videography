@@ -128,36 +128,34 @@ import "./Packages.css"
 
                     <h1 className="add-ons-title">Upgrade Options</h1>
                     <div className="add-ons">
-                        <div className="add-on zero">
-                            <h2 className="every-package">Extra Minutes</h2>
-                            <p className="lite">Extra minutes you can purchase for any video.</p>
-                            <h3>$100 Per Minute</h3>
+                        <div className="add-on">
+                            <img
+                                className="card"
+                                src="photos/cards/media.png"
+                                alt="social media"
+                            />
+                            <img
+                                className="card"
+                                src="photos/cards/dinner.png"
+                                alt="dinner icon"
+                            />
+                            <img
+                                className="card"
+                                src="photos/cards/love.png"
+                                alt="love icon"
+                            />
                         </div>
-                        <div className="add-on one">
-                            <h2 className="every-package">Social Media Trailer</h2>
-                            <p className="lite">A 60 second highlight trailer of your wedding day,
-                    perfect for sharing on social media.</p>
-                            <h3>$200</h3>
-                        </div>
-                        <div className="add-on two">
-                            <h2 className="every-package">Rehersal Dinner</h2>
-                            <p className="lite">Coverage at your pre-wedding dinner, ensures that speeches, toasts,
-                    and memories that happen before your wedding day will be remembered forever.</p>
-                            <h3>$300</h3>
-                        </div>
-                        <div className="add-on three">
-                            <h2 className="every-package">Love Story</h2>
-                            <p className="lite">Edit includes one interview session where you tell your love story to the camera,
-                            and a couples session to capture supplemental footage for the edit.
-                    Ideal for playing at your Pre-Wedding Dinner. </p>
-                            <h3>$300</h3>
-                        </div>
-                        <div className="add-on four">
-                            <h2 className="every-package">Home Video Edit</h2>
-                            <p className="lite"> An un-edited montage of ALL the footage we shot from
-                            the entire day. This all delivered separately from your
-                    Cinematic Highlight Film.</p>
-                            <h3>$500</h3>
+                        <div className="add-on">
+                            <img
+                                className="card"
+                                src="photos/cards/minute.png"
+                                alt="social media"
+                            />
+                            <img
+                                className="card"
+                                src="photos/cards/everything.png"
+                                alt="dinner icon"
+                            />
                         </div>
                     </div>
                 </section>

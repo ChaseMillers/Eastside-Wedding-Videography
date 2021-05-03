@@ -79,7 +79,7 @@ a.package-btn {
 .package {
     width: 100%;
     text-align: center;
-    padding: 0 5px;
+    margin: 0 10px;
 }
 
 .package h3 {
@@ -134,39 +134,14 @@ a.package-btn {
 .add-ons {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 0 30px;
 }
 
 .add-on {
-    width: 100%;
-    border-radius:10px;
-    margin-bottom: 10px;
-    padding-bottom: 30px;
-    border: 1px solid #292a2c;
-    text-align: center;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: white;
 }
 
-    /* Add on price */
-    .add-on h3 {
-        text-align: center;
-        font-weight: 500;
-        font-size: 18px;
-        margin: 0;
-        color: grey;
-    }
-
-    .add-on p {
-        margin: 0px;
-        padding: 20px;
-    }
 
 .buttoninContainer {
     display: flex;
@@ -221,7 +196,19 @@ a.package-btn {
     height: 150px;
     width: 200px;
 }
+img.card {
+    margin: 10px 10px;
+    width: 29%;
+    max-width: 250px;
+}
+
 @media (max-width: 650px){
+    img.card {
+        width: auto;
+    }
+    .add-on{
+        flex-direction: column;
+    }
 .icons{
     justify-content: center;
     flex-direction: row;
@@ -260,6 +247,6 @@ a.package-btn {
 }
 @media (max-width: 650px) {
     .package {
-        padding: 0 55px;
+        padding: 0 20px;
     }
 }
