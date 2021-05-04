@@ -12,7 +12,7 @@ import "./Packages.css"
                         <div className="icon-div">
                             <img
                                 className="icon"
-                                src="photos/chat.png"
+                                src="photos/icons/chat.png"
                                 alt="Consulation icon"
                             />
                             <p>Consultation</p>
@@ -21,7 +21,7 @@ import "./Packages.css"
                         <div className="icon-div">
                         <img
                             className="icon"
-                            src="photos/share.png"
+                            src="photos/icons/social.png"
                             alt="Online share Icon"
                         />
                             <p>Video Hosted <br/>
@@ -31,7 +31,7 @@ import "./Packages.css"
                         <div className="icon-div">
                             <img
                                 className="icon"
-                                src="photos/real.png"
+                                src="photos/icons/cut.png"
                                 alt="Real Icon"
                             />
                             <p>Cinematic Highlight<br/>
@@ -43,7 +43,7 @@ import "./Packages.css"
                         <div className="icon-div">
                             <img
                                 className="icon"
-                                src="photos/camera.png"
+                                src="photos/icons/camera.png"
                                 alt="Camera Icon"
                             />
                             <p>Multiple Camera <br/> 
@@ -52,7 +52,7 @@ import "./Packages.css"
                         <div className="icon-div">
                             <img
                                 className="icon"
-                                src="photos/microphone.png"
+                                src="photos/icons/microphone.png"
                                 alt="Microphone Icon"
                             />
                             <p>Professional Live <br/>
@@ -62,7 +62,7 @@ import "./Packages.css"
                         <div className="icon-div">
                             <img
                                 className="icon"
-                                src="photos/present.png"
+                                src="photos/icons/present.png"
                                 alt="Present Icon"
                             />
                             <p>Physical and <br/>
