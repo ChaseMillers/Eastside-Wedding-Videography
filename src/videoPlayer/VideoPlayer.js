@@ -6,10 +6,10 @@ const VideoPlayer = () => {
         light && 
             <iframe 
                 src={videoURL}
-                frameborder="0" 
+                frameBorder="0" 
                 allow="autoplay; fullscreen" 
                 title="wedding highlight video"
-                allowfullscreen>
+            >
             </iframe>
     );
 

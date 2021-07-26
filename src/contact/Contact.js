@@ -3,9 +3,13 @@ import "./Contact.css"
 import Layout from "../Layout/Layout"
 import FadeIn from 'react-fade-in';
 import emailjs from 'emailjs-com';
+require('dotenv').config();
+
 const Email = lazy(() =>
     import("./Email.js")
 );
+const userAccount = process.env.REACT_APP_USER
+
 const Contacts = () => {
 
     const Contact = (props) => {
@@ -39,7 +43,7 @@ const Contacts = () => {
         const handleSubmit = e => {
             e.preventDefault();
             setData({ loading: true });
-            emailjs.sendForm('service_64c5hea', 'template_5x0huzs', e.target, 'user_2w4D0pgWVqCvDEaiZHJN7')
+            emailjs.sendForm('service_64c5hea', 'template_5x0huzs', e.target, userAccount)
                 .then((result) => {
                     console.log(result.text);
                 }, (error) => {
@@ -71,7 +75,7 @@ const Contacts = () => {
                     name="name"
                     value={name}
                     onChange={handleChange("name")}
-                    requiredform
+                    required
 
                 />
                 <label htmlFor="email">Email<span className="optional">*</span></label>
