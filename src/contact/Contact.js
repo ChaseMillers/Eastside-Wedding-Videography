@@ -43,6 +43,7 @@ const Contacts = () => {
         const handleSubmit = e => {
             e.preventDefault();
             setData({ loading: true });
+            
             emailjs.sendForm('service_64c5hea', 'template_5x0huzs', e.target, userAccount)
                 .then((result) => {
                     console.log(result.text);
@@ -152,7 +153,7 @@ const Contacts = () => {
                         <Suspense fallback={<div></div>}>
                             <Email />
                         </Suspense>
-            </div>
+                </div>
                 
             </div>
                 

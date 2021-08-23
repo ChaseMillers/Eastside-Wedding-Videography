@@ -12,7 +12,9 @@ const Layout = ({
         <Fragment>   
             <Logo />
             <StickyHeader />
+            <div className='container-layout'>  
             {children}
+            </div>
             <Suspense fallback={<div></div>}>
                 <Footer />
             </Suspense>

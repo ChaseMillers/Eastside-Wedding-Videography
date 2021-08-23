@@ -13,3 +13,7 @@ body{
     font-family: 'Literata', serif;
     font-weight: 300;
 }
+
+.container-layout{
+    min-height: 800px;
+}

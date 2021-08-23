@@ -18,7 +18,7 @@ const OurWork = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
-    }, [])
+    }, []) // only runs once on page load
 
     return (
         <Layout>
