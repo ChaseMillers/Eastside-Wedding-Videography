@@ -6,25 +6,31 @@ const PackageSet = lazy(() =>
     import("./packageSet")
 );
 
+const imgDroppin =()=>{
+    return(
+        <div className="img-banner">
+            <img
+                className="sofias-pic"
+                src="photos/sofiaPackage.jpg"
+                alt="bride looking down smiling"
+            />
+        </div>
+    )
+}
+
 const Packages = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
-    }, [])
+    }, []) // on page load
 
     return (
-        PackageSet &&
+        imgDroppin &&
         <Layout>
             <FadeIn className="package-container">
 
                 <h1>Packages</h1>
-                <div className="img-banner">
-                    <img
-                        className="sofias-pic"
-                        src="photos/sofiaPackage.jpg"
-                        alt="bride looking down smiling"
-                    />
-                </div>
+                {imgDroppin()}
 
                 <Suspense fallback={<div></div>}>
                     <PackageSet />
