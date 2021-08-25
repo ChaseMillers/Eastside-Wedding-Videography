@@ -7,10 +7,10 @@ import FadeIn from 'react-fade-in';
 
 const OurWork = () => {
     const {
-        quoteJacobAndrea,
-        quoteAdamClara,
-        quoteNateAcacia,
-        quoteAustinSarah
+        QuoteJacobAndrea,
+        QuoteAdamClara,
+        QuoteNateAcacia,
+        QuoteAustinSarah
     } = Testimonials();
     const {
         OurWorkVideo
@@ -34,25 +34,25 @@ const OurWork = () => {
                             imgURL="https://imgur.com/O6zPhlo.jpg"
                             videoURL="https://player.vimeo.com/video/448812775?autoplay=1"
                         />
-                        {quoteJacobAndrea()}
+                        <QuoteJacobAndrea />
 
                         <OurWorkVideo 
                         imgURL="https://i.imgur.com/0XJfFmm.jpg"
                         videoURL="https://player.vimeo.com/video/381476056?autoplay=1"
                         />
-                        {quoteAdamClara()}
+                        <QuoteAdamClara />
 
                         <OurWorkVideo 
                         imgURL="https://i.imgur.com/EzAwSyr.jpg"
                         videoURL="https://player.vimeo.com/video/381475474?autoplay=1"
                         />
-                        {quoteNateAcacia()}
+                        <QuoteNateAcacia />
 
                         <OurWorkVideo 
                         imgURL="https://i.imgur.com/1GyrdJb.jpg"
                         videoURL="https://player.vimeo.com/video/381475965?autoplay=1"
                         />
-                        {quoteAustinSarah()}
+                        <QuoteAustinSarah />
 
                     </div>
                     </section>

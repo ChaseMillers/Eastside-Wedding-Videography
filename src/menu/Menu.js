@@ -2,7 +2,6 @@ import React, { useState, useRef } from "react";
 import { Link, withRouter } from "react-router-dom";
 import { HamburgerSqueeze } from 'react-animated-burgers'
 import './Menu.css';
-import useOutsideClick from "./menuHelper"
 
 const Menu = ({ history }) => {
 
@@ -10,9 +9,6 @@ const Menu = ({ history }) => {
   const toggleButton = () => setActive(!active);
   const ref = useRef();
 
-  useOutsideClick(ref, () => {
-    setActive(false)
-  });
   const isActive = (history, path) => {
     if (history.location.pathname === path) {
         return { color: '#ec7892' };

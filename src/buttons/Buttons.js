@@ -3,7 +3,7 @@ import "./Buttons.css"
 import { Link } from "react-router-dom";
 
 const Buttons = () =>{
-    const videoContactBtn = () =>{
+    const VideoContactBtn = () =>{
         return(
             <div className="btn-video-container">
                 <Link 
@@ -16,7 +16,7 @@ const Buttons = () =>{
     }
    
     return {
-        videoContactBtn
+        VideoContactBtn
     }
 }
 export default Buttons

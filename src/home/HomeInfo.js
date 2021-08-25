@@ -11,7 +11,7 @@ const Profile = lazy(() =>
 
 const HomeInfo = () => {
     const {
-        quoteOne,
+        QuoteOne,
     } = Testimonials();
     const {
         Contact
@@ -78,7 +78,7 @@ const HomeInfo = () => {
                         />
                     </div>
                    
-                    {quoteOne()}
+                    <QuoteOne/>}
                     <div className="contact-holder">
                     {Contact()}
                     </div>

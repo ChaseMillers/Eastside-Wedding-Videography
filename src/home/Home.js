@@ -9,7 +9,7 @@ const HomeInfo = lazy(() =>
 
 const Home = () => {
     const {
-        videoContactBtn
+        VideoContactBtn
     } = Buttons();
     return (
         HomeInfo &&
@@ -17,7 +17,7 @@ const Home = () => {
             <div className="home-container">
 
                 <div className="home-demo">
-                {videoContactBtn()}
+                {VideoContactBtn()}
                     <ReactPlayer
                     url="/videos/demoSC.mp4"
                     className='react-player'

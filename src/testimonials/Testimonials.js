@@ -3,7 +3,7 @@ import "./Testimonials.css"
 
 const Testimonials = () =>{
     
-    const quoteOne = () =>(
+    const QuoteOne = () =>(
         <div className="quote-container">
             <h1 className="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
             <div className="quote">
@@ -17,7 +17,7 @@ const Testimonials = () =>{
             </div>
         </div>
     )
-    const quoteTwo = () =>(
+    const QuoteTwo = () =>(
         <div className="quote-container">
             <h1 className="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
             <div className="quote">
@@ -30,7 +30,7 @@ const Testimonials = () =>{
         </div>
     )
 
-    const quoteJacobAndrea = () => (
+    const QuoteJacobAndrea = () => (
         <div className="quote-container">
             <h1 className="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
             <div className="quote">
@@ -44,7 +44,7 @@ const Testimonials = () =>{
         </div>
     )
 
-    const quoteAdamClara = () => (
+    const QuoteAdamClara = () => (
         <div className="quote-container">
             <h1 className="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
             <div className="quote">
@@ -59,7 +59,7 @@ const Testimonials = () =>{
         </div>
     )
     
-    const quoteNateAcacia = () =>(
+    const QuoteNateAcacia = () =>(
         <div className="quote-container">
             <h1 className="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
             <div className="quote">
@@ -75,7 +75,7 @@ const Testimonials = () =>{
         </div>
     )
 
-    const quoteAustinSarah = () =>(
+    const QuoteAustinSarah = () =>(
         <div className="quote-container">
             <h1 className="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
             <div className="quote">
@@ -92,12 +92,12 @@ const Testimonials = () =>{
     )
 
     return{
-        quoteOne,
-        quoteTwo,
-        quoteJacobAndrea,
-        quoteAdamClara,
-        quoteNateAcacia,
-        quoteAustinSarah
+        QuoteOne,
+        QuoteTwo,
+        QuoteJacobAndrea,
+        QuoteAdamClara,
+        QuoteNateAcacia,
+        QuoteAustinSarah
     }
 }
 
