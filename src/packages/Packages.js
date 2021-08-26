@@ -6,7 +6,7 @@ const PackageSet = lazy(() =>
     import("./packageSet")
 );
 
-const imgDroppin =()=>{
+const ImgDroppin =()=>{
     return(
         <div className="img-banner">
             <img
@@ -22,15 +22,15 @@ const Packages = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
-    }, []) // on page load
+    }, []) // once on page load
 
     return (
-        imgDroppin &&
+        <ImgDroppin/> &&
         <Layout>
             <FadeIn className="package-container">
 
                 <h1>Packages</h1>
-                {imgDroppin()}
+                {ImgDroppin()}
 
                 <Suspense fallback={<div></div>}>
                     <PackageSet />
