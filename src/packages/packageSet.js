@@ -156,6 +156,11 @@ import "./Packages.css"
                                 src="photos/cards/everything.png"
                                 alt="dinner icon"
                             />
+                             <img
+                                className="card"
+                                src="photos/cards/edit.png"
+                                alt="Ceremony edit icon"
+                            />
                         </div>
                     </div>
                 </section>

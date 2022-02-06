@@ -9,8 +9,7 @@ const OurWork = () => {
     const {
         QuoteJacobAndrea,
         QuoteAdamClara,
-        QuoteNateAcacia,
-        QuoteAustinSarah
+        Brynn,
     } = Testimonials();
     const {
         OurWorkVideo
@@ -31,6 +30,12 @@ const OurWork = () => {
                     <div className="portfolio">
 
                         <OurWorkVideo
+                            imgURL="photos/brynn.jpg"
+                            videoURL="https://player.vimeo.com/video/620516443?autoplay=1"
+                        />
+                        <Brynn />
+
+                        <OurWorkVideo
                             imgURL="https://imgur.com/O6zPhlo.jpg"
                             videoURL="https://player.vimeo.com/video/448812775?autoplay=1"
                         />
@@ -42,17 +47,6 @@ const OurWork = () => {
                         />
                         <QuoteAdamClara />
 
-                        <OurWorkVideo 
-                        imgURL="https://i.imgur.com/EzAwSyr.jpg"
-                        videoURL="https://player.vimeo.com/video/381475474?autoplay=1"
-                        />
-                        <QuoteNateAcacia />
-
-                        <OurWorkVideo 
-                        imgURL="https://i.imgur.com/1GyrdJb.jpg"
-                        videoURL="https://player.vimeo.com/video/381475965?autoplay=1"
-                        />
-                        <QuoteAustinSarah />
 
                     </div>
                     </section>

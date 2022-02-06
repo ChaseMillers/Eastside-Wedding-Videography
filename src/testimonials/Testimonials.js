@@ -59,45 +59,29 @@ const Testimonials = () =>{
         </div>
     )
     
-    const QuoteNateAcacia = () =>(
+    const Brynn = () =>(
         <div className="quote-container">
             <h1 className="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
             <div className="quote">
                 <p className="lite">
-                    "We are so happy we chose Greg to film our special day! 
-                    He is so friendly and an excellent videographer. He captured 
-                    all of our moments from the vows to the Newlywed Game, 
-                    providing us with a shorter summary video as well as the long 
-                    form of all the different events."
+                    "Greg truly captured every great moment of our wedding! 
+                    I especially loved the way he captured the moods and 
+                    expressions of each event from the joy of the first look 
+                    to the laughs with friends. An expert editor he knows how 
+                    to put together a great film!"
                 </p>
-                <p className="quoter">- Nathan & Acacia </p>
+                <p className="quoter">- Kevin & Brynn </p>
             </div>
         </div>
     )
 
-    const QuoteAustinSarah = () =>(
-        <div className="quote-container">
-            <h1 className="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
-            <div className="quote">
-                <p className="lite">
-                    "Greg not only caught the details and wedding 
-                    ceremony but also the “behind the scenes” parts that make our 
-                    relationship special, he also worked alongside our photographers 
-                    with no issues. We love Greg’s work and are thankful to have 
-                    lasting memories of our favorite day!"
-                </p>
-                <p className="quoter">- Austin & Sarah </p>
-            </div>
-        </div>
-    )
 
     return{
         QuoteOne,
         QuoteTwo,
         QuoteJacobAndrea,
         QuoteAdamClara,
-        QuoteNateAcacia,
-        QuoteAustinSarah
+        Brynn
     }
 }
 
