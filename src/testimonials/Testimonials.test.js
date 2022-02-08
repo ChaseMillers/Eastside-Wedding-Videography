@@ -6,8 +6,7 @@ import { BrowserRouter as Router, } from "react-router-dom";
 const {
     QuoteJacobAndrea,
     QuoteAdamClara,
-    QuoteNateAcacia,
-    QuoteAustinSarah,
+    Brynn,
     QuoteTwo,
     QuoteOne
 } = Testimonials();
@@ -18,8 +17,7 @@ it('All quotes render properly', ()=>{
     <Router>
         <QuoteJacobAndrea/>
         <QuoteAdamClara/>
-        <QuoteNateAcacia/>
-        <QuoteAustinSarah/>
+        <Brynn/>
         <QuoteTwo />
         <QuoteOne />
     </Router>

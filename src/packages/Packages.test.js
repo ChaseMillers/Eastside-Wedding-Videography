@@ -1,9 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
 import Packages from './Packages'
 import { BrowserRouter as Router, } from "react-router-dom";
+import { render, screen } from '@testing-library/react';
 
-it('renders properly', ()=>{
-    const div = document.createElement('div');
-    ReactDOM.render(<Router><Packages/></Router>, div)
-})
+
+test('Renders Packages', () => {
+    render(<Router><Packages/></Router>);
+});
+
+
+  

@@ -3,7 +3,7 @@ import "./Contact.css"
 import Layout from "../Layout/Layout"
 import FadeIn from 'react-fade-in';
 import emailjs from 'emailjs-com';
-require('dotenv').config();
+
 
 const Email = lazy(() =>
     import("./Email.js")
@@ -26,7 +26,9 @@ const Contacts = () => {
             location: '',
             message: '',
             phone: '',
-            pack: props && props.location.state && props.location.state.hasOwnProperty('package') ? props.location.state.package : ''
+            pack: props && props.location.state && props.location.state.hasOwnProperty('package') 
+                ? props.location.state.package 
+                : ''
         });
         let {
             name = data.name,
@@ -44,7 +46,7 @@ const Contacts = () => {
             e.preventDefault();
             setData({ loading: true });
             
-            emailjs.sendForm('service_64c5hea', 'template_5x0huzs', e.target, userAccount)
+            emailjs.sendForm(process.env.REACT_APP_SERVICE, process.env.REACT_APP_TEMPLATE, e.target, userAccount)
                 .then((result) => {
                     console.log(result.text);
                 }, (error) => {
