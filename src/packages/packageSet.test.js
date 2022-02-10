@@ -10,9 +10,7 @@ test('3 Buttons on contact page', () => {
 
     const buttonsArray = screen.getAllByRole('link', {name:'SELECT'})
     console.log(buttonsArray.length)
-    
     expect(buttonsArray.length).toEqual(3);
-
 })
 
 // getAllByText(''), will find all

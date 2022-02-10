@@ -61,7 +61,7 @@ const Contacts = () => {
         );
 
         const showSuccess = success => (
-            success && <div className="success">
+            success && <div className="success" id="success">
                 <h3>Thanks For Contacting Us!</h3>
                 <p>We will get back to you as soon as we can!
       You should recieve an email from us shortly.</p>
@@ -76,32 +76,37 @@ const Contacts = () => {
                     className="contact-input"
                     type="text"
                     name="name"
+                    id="name"
                     value={name}
                     onChange={handleChange("name")}
                     required
-
                 />
+
                 <label htmlFor="email">Email<span className="optional">*</span></label>
                 <input
                     className="contact-input"
                     type="text"
                     name="email"
+                    id="email"
                     value={email}
                     onChange={handleChange("email")}
                     required
                 />
-                <label htmlFor="email">Phone </label>
+
+                <label htmlFor="phone">Phone</label>
                 <input
                     className="contact-input"
                     type="tel"
+                    id="phone"
                     name="phone"
                     value={phone}
                     onChange={handleChange("phone")}
                 />
               
-                <label htmlFor="how">Which Package?<span className="optional">*</span></label>
+                <label htmlFor="pack">Which Package?<span className="optional">*</span></label>
                 <select
                     name="pack"
+                    id="pack"
                     className="contact-input package-input"
                     onChange={handleChange("pack")}
                     value={pack}
@@ -117,6 +122,7 @@ const Contacts = () => {
                     className="contact-input tell-us"
                     type="textarea"
                     name="message"
+                    id="message"
                     value={message}
                     onChange={handleChange("message")}
                 />
